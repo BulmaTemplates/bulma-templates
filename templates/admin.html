@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin Dashboard - Free Bulma template</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.0/css/bulma.min.css">
+  <!-- USED FOR DEMO GRAPHS ONLY! -->
+  <link rel="stylesheet" type="text/css" href="../demo/css-graph.css">
+  <!-- USED FOR DEMO GRAPHS ONLY! -->
+  <link rel="stylesheet" type="text/css" href="../css/admin.css">
+
+
+</head>
+<body>
+  <nav class="nav" id="top">
+    <div class="container">
+      <div class="nav-left">
+        <a class="nav-item" href="../index.html">
+          <img src="../images/bulma.png" alt="Description">
+        </a>
+      </div>
+      <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <div class="nav-right nav-menu">
+        <a class="nav-item">
+          Home
+        </a>
+        <a class="nav-item">
+          Features
+        </a>
+        <a class="nav-item">
+          Team
+        </a>
+        <a class="nav-item">
+          Help
+        </a>
+        <span class="nav-item">
+          <a class="button">
+            Log in
+          </a>
+          <a class="button is-info">
+            Sign up
+          </a>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <section class="section">
+    <div class="columns">
+      <div class="column is-2">
+        <aside class="box menu">
+          <p class="menu-label">
+            General
+          </p>
+          <ul class="menu-list">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Customers</a></li>
+          </ul>
+          <p class="menu-label">
+            Administration
+          </p>
+          <ul class="menu-list">
+            <li><a href="#">Team Settings</a></li>
+            <li>
+              <a class="is-active" href="#">Manage Your Team</a>
+              <ul>
+                <li><a href="#">Members</a></li>
+                <li><a href="#">Plugins</a></li>
+                <li><a href="#">Add a member</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Invitations</a></li>
+            <li><a href="#">Authentication</a></li>
+          </ul>
+          <p class="menu-label">
+            Transactions
+          </p>
+          <ul class="menu-list">
+            <li><a href="#">Payments</a></li>
+            <li><a href="#">Transfers</a></li>
+            <li><a href="#">Balance</a></li>
+          </ul>
+        </aside>
+      </div>
+      <div class="column is-10">
+        <div class="notification is-danger">
+          <button class="delete" onclick="((this).parentNode.remove())"></button>
+          This template is not yet finished, it may change. Please check the readme for more information.
+        </div>
+        <h1 class="title has-text-centered">
+          Admin Dashboard
+        </h1>
+        <section class="hero">
+          <div class="hero-body">
+            <div class="container">
+              <h2 class="subtitle has-text-centered">
+              </h2>
+              <br>
+              <nav class="level">
+                <div class="level-item has-text-centered">
+                  <p class="heading">Posts</p>
+                  <p class="title">3,456</p>
+                </div>
+                <div class="level-item has-text-centered">
+                  <p class="heading">Users</p>
+                  <p class="title">123</p>
+                </div>
+                <div class="level-item has-text-centered">
+                  <p class="heading">Objects</p>
+                  <p class="title">456K</p>
+                </div>
+                <div class="level-item has-text-centered">
+                  <p class="heading">Exceptions</p>
+                  <p class="title">789</p>
+                </div>
+              </nav>
+              <hr>
+            </div>
+          </div>
+        </section>
+        <!-- Main container -->
+        <section class="section">
+          <div class="container">
+            <div class="columns is-mobile is-multiline">
+              <div class="column is-half">
+                <div class="card is-fullwidth">
+                  <header class="card-header">
+                    <p class="card-header-title">
+                      Browser market share June 2015
+                    </p>
+                    <a class="card-header-icon">
+                      <i class="fa fa-angle-down"></i>
+                    </a>
+                  </header>
+                  <div class="card-content">
+                    <div class="content">
+                      <dl>
+                        <dt>
+                        </dt>
+                        <dd class="percentage percentage-49"><span class="text">Chrome: 49.77%</span></dd>
+                        <dd class="percentage percentage-16"><span class="text">Firefox: 16.09%</span></dd>
+                        <dd class="percentage percentage-11"><span class="text">IE 11: 11.33%</span></dd>
+                        <dd class="percentage percentage-5"><span class="text">Safari: 5.41%</span></dd>
+                        <dd class="percentage percentage-2"><span class="text">Android 4.4: 2%</span></dd>
+                        <dd class="percentage percentage-2"><span class="text">Opera: 1.62%</span></dd>
+                      </dl>
+                    </div>
+                  </div>
+                  <footer class="card-footer">
+                    <a class="card-footer-item">Save</a>
+                    <a class="card-footer-item">Edit</a>
+                    <a class="card-footer-item">Delete</a>
+                  </footer>
+                </div>
+              </div>
+              <div class="column is-half">
+                <div class="card is-fullwidth">
+                  <header class="card-header">
+                    <p class="card-header-title">
+                      Browser market share June 2016
+                    </p>
+                    <a class="card-header-icon">
+                      <i class="fa fa-angle-down"></i>
+                    </a>
+                  </header>
+                  <div class="card-content">
+                    <div class="content">
+                      <dl>
+                        <dt>
+                        </dt>
+                        <dd class="percentage percentage-54"><span class="text">Chrome: 54.11%</span></dd>
+                        <dd class="percentage percentage-15"><span class="text">Firefox: 15.00%</span></dd>
+                        <dd class="percentage percentage-14"><span class="text">IE 11: 14.16%</span></dd>
+                        <dd class="percentage percentage-9"><span class="text">Safari: 9.58%</span></dd>
+                        <dd class="percentage percentage-4"><span class="text">Other: 4.77%</span></dd>
+                        <dd class="percentage percentage-2"><span class="text">Opera: 1.86%</span></dd>
+                      </dl>
+                    </div>
+                  </div>
+                  <footer class="card-footer">
+                    <a class="card-footer-item">Save</a>
+                    <a class="card-footer-item">Edit</a>
+                    <a class="card-footer-item">Delete</a>
+                  </footer>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
+        </p>
+        <p>
+          <a class="icon" href="https://github.com/jgthms/bulma">
+            <i class="fa fa-github"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
