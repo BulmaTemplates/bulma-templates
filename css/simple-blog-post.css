@@ -5,8 +5,6 @@ body {
   color: #ABB7B7;
 }
 .hero {
-  background-color: #263d36;
-  background-image: url("https://unsplash.com/photos/WKT3TE5AQu0/download");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
