@@ -8,6 +8,7 @@ WIP templates:
 -  admin ([demo](https://dansup.github.io/bulma-templates/templates/admin.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/admin.html))
 -  blog ([demo](https://dansup.github.io/bulma-templates/templates/blog-simple.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/blog-simple.html))
 -  blog post ([demo](https://dansup.github.io/bulma-templates/templates/blog-simple-post.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/blog-simple-post.html))
+-  timeline ([demo](https://dansup.github.io/bulma-templates/templates/timeline.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/timeline.html))
 
 Templates:
 
