@@ -1,0 +1,23 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.has-text-muted {
+  color: #95A5A6;
+}
+.fa {
+  font-size:10px;
+  padding-top:3px;
+  color: #95A5A6;
+}
+.panel-block-item {
+  display: inline-block;
+  color: #95A5A6;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.cart-icon {
+  padding-top:10px;
+}
+.product-header {
+  background-color:#fafafa;
+}
