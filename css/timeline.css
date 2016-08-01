@@ -81,10 +81,14 @@ ul.card-stats-list {
     text-transform: uppercase;
     transition: color 0.15s ease-in-out 0s;
 }
-.trending{}
+.spacer {
+  height:20px;
+}
+
 .trending .trend-title {
   padding-bottom: 10px;
 }
+
 .trending .trend-hashtag {
   padding-bottom: 8px;
 }
