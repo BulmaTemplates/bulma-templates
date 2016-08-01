@@ -15,3 +15,9 @@ body {
   font-weight: bold;
   padding: 0 10px;
 }
+.cart-icon {
+  padding-top:10px;
+}
+.product-header {
+  background-color:#fafafa;
+}
