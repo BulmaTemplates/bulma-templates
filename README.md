@@ -18,6 +18,7 @@ Templates:
 -  product ([demo](https://dansup.github.io/bulma-templates/templates/product.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/product.html))
 -  register ([demo](https://dansup.github.io/bulma-templates/templates/register.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/register.html))
 -  timeline ([demo](https://dansup.github.io/bulma-templates/templates/timeline.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/timeline.html))
+-  video player ([demo](https://dansup.github.io/bulma-templates/templates/video-player.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/video-player.html))
 
 
 ## Licence
