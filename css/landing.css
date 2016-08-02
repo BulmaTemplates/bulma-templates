@@ -1,0 +1,34 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  color: #fff;
+}
+.is-dark {
+  background-color: #F62459;
+  background-image: linear-gradient(rgba(25, 181, 254, 0.6),rgba(246, 36, 89, 0.6)),linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1440439307159-c3afc8a8e4ff?dpr=1&auto=format&crop=entropy&fit=crop&w=2000&h=1000&q=40');
+}
+.nav {
+  padding: 20px 0;
+}
+.hero.is-dark .nav-item a:not(.button), .hero.is-dark a.nav-item {
+    color: #fff;
+    padding: 0 30px;
+}
+.nav-item {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+.nav-item .button{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  height: 45px;
+  border-radius;
+}
+.promo-img {
+  border-radius: 10px;
+  border: 10px solid #fff;
+}
