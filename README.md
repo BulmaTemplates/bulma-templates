@@ -16,6 +16,7 @@ Templates:
 -  hero ([demo](https://dansup.github.io/bulma-templates/templates/hero.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/hero.html))
 -  login ([demo](https://dansup.github.io/bulma-templates/templates/login.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/login.html))
 -  product ([demo](https://dansup.github.io/bulma-templates/templates/product.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/product.html))
+-  profile ([demo](https://dansup.github.io/bulma-templates/templates/profile.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/profile.html))
 -  projects ([demo](https://dansup.github.io/bulma-templates/templates/projects.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/projects.html))
 -  register ([demo](https://dansup.github.io/bulma-templates/templates/register.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/register.html))
 -  timeline ([demo](https://dansup.github.io/bulma-templates/templates/timeline.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/timeline.html))
