@@ -4,218 +4,353 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Admin Dashboard - Free Bulma template</title>
+  <title>Admin - Free Bulma template</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.0/css/bulma.min.css">
-  <!-- USED FOR DEMO GRAPHS ONLY! -->
-  <link rel="stylesheet" type="text/css" href="../demo/css-graph.css">
-  <style type="text/css">
-    body {
-      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    }
-  </style>
-
+  <link rel="stylesheet" type="text/css" href="../css/bulma.css">
+  <link rel="stylesheet" href="../demo/morris.css">
+  <link rel="stylesheet" type="text/css" href="../css/admin.css">
 </head>
 <body>
-  <nav class="nav has-shadow" id="top">
-    <div class="container">
-      <div class="nav-left">
-        <a class="nav-item" href="../index.html">
-          <img src="../images/bulma.png" alt="Description">
-        </a>
-      </div>
-      <span class="nav-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </span>
-      <div class="nav-right nav-menu">
-        <a class="nav-item is-tab is-active">
-          Home
-        </a>
-        <a class="nav-item is-tab">
-          Features
-        </a>
-        <a class="nav-item is-tab">
-          Team
-        </a>
-        <a class="nav-item is-tab">
-          Help
-        </a>
-        <span class="nav-item">
-          <a class="button">
-            Log in
-          </a>
-          <a class="button is-info">
-            Sign up
-          </a>
-        </span>
-      </div>
-    </div>
-  </nav>
-  <section class="section">
-    <div class="columns">
-      <div class="column is-2">
-        <aside class="box menu">
-          <p class="menu-label">
-            General
-          </p>
-          <ul class="menu-list">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Customers</a></li>
-          </ul>
-          <p class="menu-label">
-            Administration
-          </p>
-          <ul class="menu-list">
-            <li><a href="#">Team Settings</a></li>
-            <li>
-              <a class="is-active" href="#">Manage Your Team</a>
-              <ul>
-                <li><a href="#">Members</a></li>
-                <li><a href="#">Plugins</a></li>
-                <li><a href="#">Add a member</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Invitations</a></li>
-            <li><a href="#">Authentication</a></li>
-          </ul>
-          <p class="menu-label">
-            Transactions
-          </p>
-          <ul class="menu-list">
-            <li><a href="#">Payments</a></li>
-            <li><a href="#">Transfers</a></li>
-            <li><a href="#">Balance</a></li>
-          </ul>
-        </aside>
-      </div>
-      <div class="column is-10">
-        <div class="notification is-danger">
-          <button class="delete" onclick="((this).parentNode.remove())"></button>
-          This template is not yet finished, it may change. Please check the readme for more information.
+  <div class="columns">
+    <aside class="column is-2 aside hero is-fullheight is-hidden-mobile">
+      <div>
+        <div class="main">
+          <div class="title">Main</div>
+          <a href="#" class="item active"><span class="icon"><i class="fa fa-home"></i></span><span class="name">Dashboard</span></a>
+          <a href="#" class="item"><span class="icon"><i class="fa fa-map-marker"></i></span><span class="name">Activity</span></a>
+          <a href="#" class="item"><span class="icon"><i class="fa fa-th-list"></i></span><span class="name">Timeline</span></a>
+          <a href="#" class="item"><span class="icon"><i class="fa fa-folder-o"></i></span><span class="name">Folders</span></a>
         </div>
-        <h1 class="title has-text-centered">
-          Admin Dashboard
-        </h1>
-        <section class="hero">
-          <div class="hero-body">
-            <div class="container">
-              <h2 class="subtitle has-text-centered">
-              </h2>
-              <br>
-              <nav class="level">
-                <div class="level-item has-text-centered">
-                  <p class="heading">Posts</p>
-                  <p class="title">3,456</p>
-                </div>
-                <div class="level-item has-text-centered">
-                  <p class="heading">Users</p>
-                  <p class="title">123</p>
-                </div>
-                <div class="level-item has-text-centered">
-                  <p class="heading">Objects</p>
-                  <p class="title">456K</p>
-                </div>
-                <div class="level-item has-text-centered">
-                  <p class="heading">Exceptions</p>
-                  <p class="title">789</p>
-                </div>
-              </nav>
-              <hr>
-            </div>
-          </div>
-        </section>
-        <!-- Main container -->
-        <section class="section">
-          <div class="container">
-            <div class="columns is-mobile is-multiline">
-              <div class="column is-half">
-                <div class="card is-fullwidth">
-                  <header class="card-header">
-                    <p class="card-header-title">
-                      Browser market share June 2015
-                    </p>
-                    <a class="card-header-icon">
-                      <i class="fa fa-angle-down"></i>
-                    </a>
-                  </header>
-                  <div class="card-content">
-                    <div class="content">
-                      <dl>
-                        <dt>
-                        </dt>
-                        <dd class="percentage percentage-49"><span class="text">Chrome: 49.77%</span></dd>
-                        <dd class="percentage percentage-16"><span class="text">Firefox: 16.09%</span></dd>
-                        <dd class="percentage percentage-11"><span class="text">IE 11: 11.33%</span></dd>
-                        <dd class="percentage percentage-5"><span class="text">Safari: 5.41%</span></dd>
-                        <dd class="percentage percentage-2"><span class="text">Android 4.4: 2%</span></dd>
-                        <dd class="percentage percentage-2"><span class="text">Opera: 1.62%</span></dd>
-                      </dl>
-                    </div>
-                  </div>
-                  <footer class="card-footer">
-                    <a class="card-footer-item">Save</a>
-                    <a class="card-footer-item">Edit</a>
-                    <a class="card-footer-item">Delete</a>
-                  </footer>
-                </div>
-              </div>
-              <div class="column is-half">
-                <div class="card is-fullwidth">
-                  <header class="card-header">
-                    <p class="card-header-title">
-                      Browser market share June 2016
-                    </p>
-                    <a class="card-header-icon">
-                      <i class="fa fa-angle-down"></i>
-                    </a>
-                  </header>
-                  <div class="card-content">
-                    <div class="content">
-                      <dl>
-                        <dt>
-                        </dt>
-                        <dd class="percentage percentage-54"><span class="text">Chrome: 54.11%</span></dd>
-                        <dd class="percentage percentage-15"><span class="text">Firefox: 15.00%</span></dd>
-                        <dd class="percentage percentage-14"><span class="text">IE 11: 14.16%</span></dd>
-                        <dd class="percentage percentage-9"><span class="text">Safari: 9.58%</span></dd>
-                        <dd class="percentage percentage-4"><span class="text">Other: 4.77%</span></dd>
-                        <dd class="percentage percentage-2"><span class="text">Opera: 1.86%</span></dd>
-                      </dl>
-                    </div>
-                  </div>
-                  <footer class="card-footer">
-                    <a class="card-footer-item">Save</a>
-                    <a class="card-footer-item">Edit</a>
-                    <a class="card-footer-item">Delete</a>
-                  </footer>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-
       </div>
-    </div>
-  </section>
-  <footer class="footer">
-    <div class="container">
-      <div class="content has-text-centered">
-        <p>
-          <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
-        </p>
-        <p>
-          <a class="icon" href="https://github.com/jgthms/bulma">
-            <i class="fa fa-github"></i>
+    </aside>
+    <div class="column is-10 admin-panel">
+      <nav class="nav has-shadow" id="top">
+        <div class="container">
+          <div class="nav-left">
+            <a class="nav-item" href="../index.html">
+              <img src="../images/bulma.png" alt="Description">
+            </a>
+          </div>
+          <span class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <div class="nav-right nav-menu is-hidden-tablet">
+          <a href="#" class="nav-item is-active">
+            Dashboard
           </a>
-        </p>
-      </div>
+          <a href="#" class="nav-item">
+            Activity
+          </a>
+          <a href="#" class="nav-item">
+            Timeline
+          </a>
+          <a href="#" class="nav-item">
+            Folders
+          </a>
+          </div>
+        </div>
+      </nav>
+      <section class="hero is-small">
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              Admin Dashboard
+            </h1>
+            <h2 class="subtitle">
+              A simple admin template
+            </h2>
+          </div>
+        </div>
+
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-foot">
+          <nav class="level">
+            <div class="level-item has-text-centered">
+              <p class="heading">Tweets</p>
+              <p class="title">3,456</p>
+            </div>
+            <div class="level-item has-text-centered">
+              <p class="heading">Following</p>
+              <p class="title">123</p>
+            </div>
+            <div class="level-item has-text-centered">
+              <p class="heading">Followers</p>
+              <p class="title">456K</p>
+            </div>
+            <div class="level-item has-text-centered">
+              <p class="heading">Likes</p>
+              <p class="title">789</p>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <section class="section">
+        <div class="columns is-mobile is-multiline">
+          <div class="column is-one-third-desktop is-full-mobile">
+            <section class="panel">
+              <p class="panel-heading">
+                Total Users
+              </p>
+              <p class="panel-tabs">
+                <a class="is-active" href="#">All Time</a>
+                <a href="#">Past week</a>
+                <a href="#">Past month</a>
+                <a href="#">Past quarter</a>
+                <a href="#">Past Year</a>
+              </p>
+              <div class="panel-block">
+                <div id="chart1" style="height: 250px;"></div>
+              </div>
+              <div class="panel-block">
+                <button class="button is-default is-outlined is-fullwidth">
+                  View Data
+                </button>
+              </div>
+            </section>
+          </div>
+          <div class="column is-one-third-desktop is-full-mobile">
+            <section class="panel">
+              <p class="panel-heading">
+                Sales
+              </p>
+              <div class="panel-block">
+                <div id="chart2" style="height: 280px;"></div>
+              </div>
+              <div class="panel-block">
+                <button class="button is-default is-outlined is-fullwidth">
+                  View Data
+                </button>
+              </div>
+            </section>
+          </div>
+          <div class="column is-one-third-desktop is-full-mobile">
+            <section class="panel">
+              <p class="panel-heading">
+                YoY Comparison
+              </p>
+              <div class="panel-block">
+                <div id="chart3" style="height: 280px;"></div>
+              </div>
+              <div class="panel-block">
+                <button class="button is-default is-outlined is-fullwidth">
+                  View Data
+                </button>
+              </div>
+            </section>
+          </div>
+          <div class="column is-half-desktop is-full-mobile">
+            <section class="panel">
+              <p class="panel-heading">
+               Notifications
+              </p>
+              <div class="panel-block">
+                <div class="notification is-warning">
+                  <button class="delete" onclick="((this).parentNode.remove())"></button>
+                  <strong>Server 101a is at 90% disk capacity.</strong>
+                  <br>
+                  <small>1h ago | via: system</small> 
+                </div>
+                <div class="notification">
+                  <button class="delete" onclick="((this).parentNode.remove())"></button>
+                   <strong>Cron job successfully completed.</strong>
+                  <br>
+                  <small>2h ago | via: system</small> 
+                </div>
+                <div class="notification">
+                  <button class="delete" onclick="((this).parentNode.remove())"></button>
+                   <strong>Completed automated backup.</strong>
+                  <br>
+                  <small>1d ago | via: system</small> 
+                </div>
+                <div class="notification">
+                  <button class="delete" onclick="((this).parentNode.remove())"></button>
+                   <strong>Security scan complete. 0 exceptions found.</strong>
+                  <br>
+                  <small>1d ago | via: system</small> 
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="column is-half-desktop is-full-mobile">
+            <section class="panel">
+              <p class="panel-heading">
+                Forecast
+              </p>
+              <div class="panel-block">
+                <div id="chart5" style="height: 280px;"></div>
+              </div>
+            </section>
+          </div>
+          <div class="column is-half-desktop is-full-mobile">
+            <section class="panel">
+              <p class="panel-heading">
+                Popular Followers
+              </p>
+              <div class="panel-block">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Instrument</th>
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tfoot>
+                    <tr>
+                      <th>Name</th>
+                      <th>Instrument</th>
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </tfoot>
+                  <tbody>
+                    <tr>
+                      <td>Misty Abbott</td>
+                      <td>Bass Guitar</td>
+                      <td class="is-icon">
+                        <a href="#">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </td>
+                      <td class="is-icon">
+                        <a href="#">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>John Smith</td>
+                      <td>Rhythm Guitar</td>
+                      <td class="is-icon">
+                        <a href="#">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </td>
+                      <td class="is-icon">
+                        <a href="#">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Robert Mikels</td>
+                      <td>Lead Guitar</td>
+                      <td class="is-icon">
+                        <a href="#">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </td>
+                      <td class="is-icon">
+                        <a href="#">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Karyn Holmberg</td>
+                      <td>Drums</td>
+                      <td class="is-icon">
+                        <a href="#">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </td>
+                      <td class="is-icon">
+                        <a href="#">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          </div>
+          <div class="column">
+            <section class="panel">
+              <p class="panel-heading">
+               Message User
+              </p>
+              <div class="panel-block">
+                <label class="label">Name</label>
+                <p class="control">
+                  <input class="input" type="text" placeholder="Text input">
+                </p>
+                <label class="label">Username</label>
+                <p class="control has-icon has-icon-right">
+                  <input class="input is-success" type="text" placeholder="Text input" value="bulma">
+                  <i class="fa fa-check"></i>
+                  <span class="help is-success">This username is available</span>
+                </p>
+                <label class="label">Email</label>
+                <p class="control has-icon has-icon-right">
+                  <input class="input is-danger" type="text" placeholder="Email input" value="hello@">
+                  <i class="fa fa-warning"></i>
+                  <span class="help is-danger">This email is invalid</span>
+                </p>
+                <label class="label">Subject</label>
+                <p class="control">
+                  <span class="select">
+                    <select>
+                      <option>Select dropdown</option>
+                      <option>With options</option>
+                    </select>
+                  </span>
+                </p>
+                <label class="label">Message</label>
+                <p class="control">
+                  <textarea class="textarea" placeholder="Textarea"></textarea>
+                </p>
+                <p class="control">
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    Remember me
+                  </label>
+                </p>
+                <p class="control">
+                  <label class="radio">
+                    <input type="radio" name="question">
+                    Yes
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="question">
+                    No
+                  </label>
+                </p>
+                <p class="control">
+                  <button class="button is-primary">Submit</button>
+                  <button class="button is-link">Cancel</button>
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
     </div>
-  </footer>
+  </div>
+<footer class="footer">
+  <div class="container">
+    <div class="has-text-centered">
+      <p>
+        <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
+      </p>
+      <p>
+        <a class="icon" href="https://github.com/jgthms/bulma">
+          <i class="fa fa-github"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+</footer>
+  <script async type="text/javascript" src="../js/bulma.js"></script>
+  <script async type="text/javascript" src="../demo/jquery.js"></script>
+  <script async type="text/javascript" src="../demo/raphael.min.js"></script>
+  <script async type="text/javascript" src="../demo/morris.js"></script>
+  <script async type="text/javascript" src="../demo/admin.js"></script>
 </body>
 </html>

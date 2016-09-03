@@ -1,0 +1,60 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  height: 100%;
+}
+.button.is-success {
+  background-color: #2EB398;
+}
+.nav.is-dark {
+  background-color: #232B2D;
+  color: #F6F7F7;
+}
+.nav.is-dark .nav-item a, .nav.is-dark a.nav-item {
+    color: #F6F7F7;
+}
+.nav.is-dark .nav-item a.button.is-default {
+    color: #F6F7F7;
+    background-color: transparent;
+    border-width: 2px;
+}
+.aside {
+  background-color: #354052;
+  margin-right: -10px;
+}
+.aside .main {
+  padding: 40px;
+  color: #6F7B7E;
+}
+.aside .title {
+  color: #6F7B7E;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.aside .main .item {
+  display: block;
+  padding: 10px 0;
+  color: #6F7B7E;
+}
+.aside .main .item.active {
+  color: #F6F7F7;
+}
+.aside .main .icon {
+  font-size: 19px;
+  padding-right: 30px;
+}
+.aside .main .name {
+  font-size: 16px;
+  font-weight: bold;
+}
+.admin-panel {
+  padding-bottom: 0;
+}
+.content {
+  display: block;
+  background-color: #fff;
+  padding: 40px 20px;
+}
+.hero .tabs ul {
+    border-bottom: 1px solid #d3d6db;
+}
