@@ -1,0 +1,49 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  background-color: #fff;
+}
+
+.columns.is-fullheight {
+  margin-bottom: 0;
+}
+
+.footer {
+  margin-top:-10px;
+}
+
+.left-side .hero-body {
+  background-color: #999;
+  background-image: url('https://hd.unsplash.com/photo-1457365050282-c53d772ef8b2');
+  -ms-background-position-x: center;
+  -ms-background-position-y: bottom;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.left-side .hero-body .title {
+  color: #fff;
+  font-weight: lighter;
+}
+
+.right-side .hero-body .container {
+  padding: 40px 30px;
+}
+
+.right-side .hero-body .container .column {
+  padding: 40px 30px;
+}
+
+.right-side .hero-body .blog-timestamp {
+  font-weight: bold;
+}
+
+.right-side .hero-body .blog-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.right-side .hero-body .blog-summary {
+  font-size: 18px;
+  font-weight:lighter;
+  line-height: 1.5;
+}
