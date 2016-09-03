@@ -4,270 +4,144 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Simple Blog - Free Bulma template</title>
+  <title>Blog - Free Bulma template</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.0/css/bulma.min.css">
-  <link rel="stylesheet" type="text/css" href="../css/simple-blog.css">
+  <link rel="stylesheet" type="text/css" href="../css/bulma.css">
+  <link rel="stylesheet" type="text/css" href="../css/blog.css">
 </head>
 <body>
-  <nav class="nav" id="top">
-    <div class="container">
-      <div class="nav-left">
-        <a class="nav-item" href="../index.html">
-          <img src="../images/bulma.png" alt="Description">
-        </a>
-      </div>
-      <span class="nav-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </span>
-      <div class="nav-right nav-menu">
-        <a class="nav-item is-tab is-active">
-          Home
-        </a>
-        <a class="nav-item is-tab">
-          Features
-        </a>
-        <a class="nav-item is-tab">
-          Team
-        </a>
-        <a class="nav-item is-tab">
-          Help
-        </a>
-        <span class="nav-item">
-          <a class="button">
-            Log in
+  <div class="columns is-fullheight">
+    <div class="column left-side is-half-desktop is-hidden-touch">
+      <section class="hero is-fullheight is-default is-bold">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+          <div class="title is-1">My Blog</div>
+            <div class="title is-5">A blog about stuff</div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="column right-side is-half-desktop is-full-mobile">
+      <nav class="nav is-hidden-tablet">
+        <div class="nav-left">
+          <a class="nav-item is-brand" href="#">
+            <img src="../images/bulma.png" alt="Bulma logo">
           </a>
-          <a class="button is-info">
-            Sign up
+        </div>
+
+        <div class="nav-center">
+          <a class="nav-item" href="#">
+            <span class="icon">
+              <i class="fa fa-github"></i>
+            </span>
           </a>
+          <a class="nav-item" href="#">
+            <span class="icon">
+              <i class="fa fa-twitter"></i>
+            </span>
+          </a>
+        </div>
+
+        <span class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
         </span>
-      </div>
-    </div>
-  </nav>
-  <section class="hero is-default is-small">
-    <div class="hero-body">
-    <div class="container">
-      <div class="column is-8 is-offset-2">
-      <div class="columns">
-      <div class="column is-3">
-        <img src="https://placehold.it/100x100" style="border-radius:100px">
-      </div>
-      <div class="column is-9 has-text-left">
-        <h1 class="title">
-          John Smiths Blog
-        </h1>
-        <h2 class="subtitle">
-          I am a human, from the planet Earth in Sol.
-        </h2>
-        <p>
-          
-        <a class="button is-text"><strong>8k</strong> &nbsp; following</a>
-        <a class="button is-text"><strong>84k</strong> &nbsp; followers</a>
-        </p>
-        <br>
-        <p><a class="button is-success is-outlined is-large" style="border-radius:50px;">Follow</a></p>
-      </div>
-      </div>
-      </div>
-    </div>
-  </section>
-  <section>
-  <div class="container">
-      <div class="column is-8 is-offset-2">
 
-  <nav class="level" style="padding:10px;">
-    <div class="level-item">Profile</div>
-    <div class="level-item">Latest</div>
-    <div class="level-item">Recommends</div>
-    <div class="level-item">Highlights</div>
-    <div class="level-item">Responses</div>
-  </nav>
-  </div>
-  </div>
-  </section>
-  <section class="section blog" style="background-color:#F0F0F0">
-    <div class="container">
-      <div class="columns is-mobile">
-        <div class="column is-8 is-offset-2">
-          <!-- START BLOG POST CARD -->
-          <div class="card is-fullwidth">
-            <header class="card-header">
-              <div class="card-header-title">
-                <p>published 2 days ago</p>
-              </div>
-            </header>
-            <section class="hero is-info is-small header-photo">
-              <div class="hero-body">
-                <div class="container">
-                  <h1 class="title">
-                    Looking ahead/behind
-                  </h1>
-                  <h2 class="subtitle">
-                    A story about substring search
-                  </h2>
-                </div>
-              </div>
-            </section>
-            <p class="has-text-centered">Photo Credit: <a href="https://unsplash.com/@nasa">NASA</a> via <a href="https://unsplash.com/?photo=6-jTZysYY_U">unsplash</a></p>
-            <div class="card-content">
-              <article class="media">
-                <div class="media-content">
-                  <div class="content">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                    </p>
-                    <p class="has-text-centered">
-                      <a href="#">Read More...</a>
-                    </p>
-                  </div>
-                </div>
-              </article>
+        <div class="nav-right nav-menu">
+          <a class="nav-item" href="#">
+            Home
+          </a>
+          <a class="nav-item" href="#">
+            Documentation
+          </a>
+          <a class="nav-item" href="#">
+            Blog
+          </a>
+
+          <span class="nav-item">
+            <a class="button" >
+              <span class="icon">
+                <i class="fa fa-twitter"></i>
+              </span>
+              <span>Tweet</span>
+            </a>
+            <a class="button is-primary" href="#">
+              <span class="icon">
+                <i class="fa fa-download"></i>
+              </span>
+              <span>Download</span>
+            </a>
+          </span>
+        </div>
+      </nav>
+      <section class="hero is-fullheight is-default is-bold">
+        <div class="hero-body">
+          <div class="container">
+            <div class="column is-full-desktop">
+              <h1 class="blog-timestamp">
+                2 days ago
+              </h1>
+              <h1 class="blog-title">
+                Cras feugiat euismod sem accumsan ultrices.
+              </h1>
+              <h2 class="blog-summary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare malesuada dolor ut dictum. Pellentesque eget orci nisl. Vivamus sit amet ullamcorper elit. Donec mattis scelerisque dui sed convallis.
+              </h2>
             </div>
+            <div class="column is-full-desktop">
+              <h1 class="blog-timestamp">
+                1 week ago
+              </h1>
+              <h1 class="blog-title">
+                Praesent dignissim vestibulum ex
+              </h1>
+              <h2 class="blog-summary">
+               Fusce sagittis ultrices ipsum quis posuere. Donec ornare, erat eget sollicitudin sagittis, lacus augue consectetur lorem, at pretium mauris ligula quis nisi. Curabitur ligula nisi, elementum at dapibus sit amet, venenatis a libero. Duis libero erat, pellentesque ac arcu ut, ultrices condimentum lacus.
+             </h2>
+           </div>
+           <div class="column is-full-desktop">
+            <h1 class="blog-timestamp">
+              1 year ago
+            </h1>
+            <h1 class="blog-title">
+              Phasellus aliquam sem libero
+            </h1>
+            <h2 class="blog-summary">
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla sit amet facilisis purus, quis ullamcorper eros. Duis aliquam dignissim ipsum, malesuada commodo justo. Aliquam finibus vel massa non pharetra. Cras congue luctus pulvinar.
+            </h2>
           </div>
-          <section class="section" style="background-color:#F0F0F0"></section>
-          <!-- END BLOG POST CARD -->
-
-          <!-- START BLOG POST CARD -->
-          <div class="card is-fullwidth">
-            <header class="card-header">
-              <div class="card-header-title">
-                <p>published 2 days ago</p>
-              </div>
-            </header>
-            <section class="hero is-info is-small header-photo">
-              <div class="hero-body">
-                <div class="container">
-                  <h1 class="title">
-                    A journey through JWT
-                  </h1>
-                  <h2 class="subtitle">
-                    JSON Web Tokens, are they the future?
-                  </h2>
-                </div>
-              </div>
-            </section>
-            <p class="has-text-centered">Photo Credit: <a href="https://unsplash.com/@nasa">NASA</a> via <a href="https://unsplash.com/?photo=6-jTZysYY_U">unsplash</a></p>
-            <div class="card-content">
-              <article class="media">
-                <div class="media-content">
-                  <div class="content">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                    </p>
-                    <p class="has-text-centered">
-                      <a href="#">Read More...</a>
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-          <section class="section" style="background-color:#F0F0F0"></section>
-
-          <!-- END BLOG POST CARD -->
-
-          <!-- START BLOG POST CARD -->
-          <div class="card is-fullwidth">
-            <header class="card-header">
-              <div class="card-header-title">
-                <p>published 2 days ago</p>
-              </div>
-            </header>
-            <section class="hero is-info is-small header-photo">
-              <div class="hero-body">
-                <div class="container">
-                  <h1 class="title">
-                    Who really owns example.org?
-                  </h1>
-                  <h2 class="subtitle">
-                    Spoiler: /etc/hosts
-                  </h2>
-                </div>
-              </div>
-            </section>
-            <p class="has-text-centered">Photo Credit: <a href="https://unsplash.com/@nasa">NASA</a> via <a href="https://unsplash.com/?photo=6-jTZysYY_U">unsplash</a></p>
-            <div class="card-content">
-              <article class="media">
-                <div class="media-content">
-                  <div class="content">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                    </p>
-                    <p class="has-text-centered">
-                      <a href="#">Read More...</a>
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-          <section class="section" style="background-color:#F0F0F0"></section>
-
-          <!-- END BLOG POST CARD -->
-
-          <!-- START BLOG POST CARD -->
-          <div class="card is-fullwidth">
-            <header class="card-header">
-              <div class="card-header-title">
-                <p>published 2 days ago</p>
-              </div>
-            </header>
-            <section class="hero is-info is-small header-photo">
-              <div class="hero-body">
-                <div class="container">
-                  <h1 class="title">
-                    A tribute to unsplash
-                  </h1>
-                  <h2 class="subtitle">
-                    Such magnificent pictures to use in mockups
-                  </h2>
-                </div>
-              </div>
-            </section>
-            <p class="has-text-centered">Photo Credit: <a href="https://unsplash.com/@nasa">NASA</a> via <a href="https://unsplash.com/?photo=6-jTZysYY_U">unsplash</a></p>
-            <div class="card-content">
-              <article class="media">
-                <div class="media-content">
-                  <div class="content">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                    </p>
-                    <p class="has-text-centered">
-                      <a href="#">Read More...</a>
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-          <section class="section" style="background-color:#F0F0F0"></section>
-          <!-- END BLOG POST CARD -->
-
-
-
-
-
         </div>
       </div>
-    </div>
-  </section>
-  <footer class="footer">
-    <div class="container">
-      <div class="content has-text-centered">
-        <p>
-          <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
-        </p>
-        <p>
-          <a class="icon" href="https://github.com/jgthms/bulma">
-            <i class="fa fa-github"></i>
-          </a>
-        </p>
+
+      <div class="hero-foot">
+        <div class="container">
+          <div class="tabs is-centered">
+            <ul>
+              <li><a href="#">View more posts</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
+    </section>
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
+      </p>
+      <p>
+        <a class="icon" href="https://github.com/jgthms/bulma">
+          <i class="fa fa-github"></i>
+        </a>
+      </p>
     </div>
-  </footer>
+  </div>
+</footer>
+<script async type="text/javascript" src="../js/bulma.js"></script>
 </body>
 </html>

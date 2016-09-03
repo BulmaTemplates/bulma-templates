@@ -5,18 +5,7 @@ body {
 .button.is-success {
   background-color: #2EB398;
 }
-.nav.is-dark {
-  background-color: #232B2D;
-  color: #F6F7F7;
-}
-.nav.is-dark .nav-item a, .nav.is-dark a.nav-item {
-    color: #F6F7F7;
-}
-.nav.is-dark .nav-item a.button.is-default {
-    color: #F6F7F7;
-    background-color: transparent;
-    border-width: 2px;
-}
+
 .aside {
   background-color: #232B2D;
 }
@@ -64,7 +53,9 @@ body {
   padding: 40px 20px;
 }
 .nav.menu {
+  background-color: #fff;
   border-bottom: 1px solid #e1e1e1;
+  z-index: 1;
 }
 .nav.menu .nav-item .icon-btn {
   border: 3px solid #B7C6C9;
