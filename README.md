@@ -1,29 +1,26 @@
-bulma templates
-==========
+# Bulma Templates
+Free Templates for the Bulma CSS Framework
 
-free templates for the bulma css framework
+## Versions
+  The original bulma templates were made with version 0.1.1 and can be found in the **0.1.1** branch. The newest templates are made with version 0.5.3 and can be found in the **master** branch until they are finished and will be tagged in a **0.5.x** branch once complete. The templates on dansup.github.io are based on the **0.5.3** branch.
+  
+  
+## Templates
+
+The templates are located in the ```/templates``` directory, and you can preview them on the [demo website](http://dansup.github.io/bulma-templates)
+
+## Roadmap
+
+The roadmap for the version 0.5.3 release can be found on the [projects tracker](https://github.com/dansup/bulma-templates/projects/1)
 
 
-WIP templates:
--  admin ([demo](https://dansup.github.io/bulma-templates/templates/admin.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/admin.html))
--  blog ([demo](https://dansup.github.io/bulma-templates/templates/blog.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/blog.html))
--  blog post ([demo](https://dansup.github.io/bulma-templates/templates/blog-post.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/blog-post.html))
+## Contributing
 
-Templates:
-
--  cover ([demo](https://dansup.github.io/bulma-templates/templates/cover.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/cover.html))
--  grid ([demo](https://dansup.github.io/bulma-templates/templates/grid-gallery.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/grid-gallery.html))
--  hero ([demo](https://dansup.github.io/bulma-templates/templates/hero.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/hero.html))
--  login ([demo](https://dansup.github.io/bulma-templates/templates/login.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/login.html))
--  landing ([demo](https://dansup.github.io/bulma-templates/templates/landing.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/landing.html))
--  product ([demo](https://dansup.github.io/bulma-templates/templates/product.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/product.html))
--  profile ([demo](https://dansup.github.io/bulma-templates/templates/profile.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/profile.html))
--  projects ([demo](https://dansup.github.io/bulma-templates/templates/projects.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/projects.html))
--  register ([demo](https://dansup.github.io/bulma-templates/templates/register.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/register.html))
--  status page ([demo](https://dansup.github.io/bulma-templates/templates/statuspage.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/statuspage.html))
--  timeline ([demo](https://dansup.github.io/bulma-templates/templates/timeline.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/timeline.html))
--  video player ([demo](https://dansup.github.io/bulma-templates/templates/video-player.html) | [source](https://raw.githubusercontent.com/dansup/bulma-templates/master/templates/video-player.html))
-
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
 
 ## Licence
 
