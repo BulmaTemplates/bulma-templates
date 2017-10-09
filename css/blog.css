@@ -1,49 +1,59 @@
-body {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  background-color: #fff;
+html,body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background: #F0F2F4;
 }
-
-.columns.is-fullheight {
-  margin-bottom: 0;
+.navbar.is-white {
+  background: #F0F2F4;
 }
-
-.footer {
-  margin-top:-10px;
+.navbar-brand .brand-text {
+  font-size: 1.11rem;
+  font-weight: bold;
 }
-
-.left-side .hero-body {
-  background-color: #999;
-  background-image: url('https://hd.unsplash.com/photo-1457365050282-c53d772ef8b2');
-  -ms-background-position-x: center;
-  -ms-background-position-y: bottom;
-  background-position: center bottom;
-  background-size: cover;
+.articles {
+  margin: 5rem 0;
 }
-
-.left-side .hero-body .title {
-  color: #fff;
+.articles .content p {
+    line-height: 1.9;
+    margin: 15px 0;
+}
+.author-image {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: -30px;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+}
+.media-center {
+  display: block;
+  margin-bottom: 1rem;
+}
+.media-content {
+  margin-top: 3rem;
+}
+.article, .promo-block {
+  margin-top: 6rem;
+}
+div.column.is-8:first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
+.article-title {
+  font-size: 2rem;
   font-weight: lighter;
+  line-height: 2;
 }
-
-.right-side .hero-body .container {
-  padding: 40px 30px;
+.article-subtitle {
+  color: #909AA0;
+  margin-bottom: 3rem;
 }
-
-.right-side .hero-body .container .column {
-  padding: 40px 30px;
+.article-body {
+  line-height: 1.4;
+  margin: 0 6rem;
 }
-
-.right-side .hero-body .blog-timestamp {
-  font-weight: bold;
-}
-
-.right-side .hero-body .blog-title {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.right-side .hero-body .blog-summary {
-  font-size: 18px;
-  font-weight:lighter;
-  line-height: 1.5;
+.promo-block .container {
+  margin: 1rem 5rem;
 }

@@ -5,143 +5,162 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Blog - Free Bulma template</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="../css/bulma.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Bulma Version 0.5.3 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css" integrity="sha256-spCEAaZMKebC3rE/ZTt8jITn65b0Zan45WXblWjyDyQ=" crossorigin="anonymous" />
   <link rel="stylesheet" type="text/css" href="../css/blog.css">
 </head>
 <body>
-  <div class="columns is-fullheight">
-    <div class="column left-side is-half-desktop is-hidden-touch">
-      <section class="hero is-fullheight is-default is-bold">
-        <div class="hero-body">
-          <div class="container has-text-centered">
-          <div class="title is-1">My Blog</div>
-            <div class="title is-5">A blog about stuff</div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <div class="column right-side is-half-desktop is-full-mobile">
-      <nav class="nav is-hidden-tablet">
-        <div class="nav-left">
-          <a class="nav-item is-brand" href="#">
-            <img src="../images/bulma.png" alt="Bulma logo">
-          </a>
-        </div>
 
-        <div class="nav-center">
-          <a class="nav-item" href="#">
-            <span class="icon">
-              <i class="fa fa-github"></i>
-            </span>
-          </a>
-          <a class="nav-item" href="#">
-            <span class="icon">
-              <i class="fa fa-twitter"></i>
-            </span>
-          </a>
-        </div>
-
-        <span class="nav-toggle">
+  <div class="container">
+    <!-- START NAV -->
+    <nav class="navbar is-white">
+      <div class="navbar-brand">
+        <a class="navbar-item brand-text" href="../">
+          Bulma Blog          
+        </a>
+        <div class="navbar-burger burger" data-target="navMenu">
           <span></span>
           <span></span>
           <span></span>
-        </span>
-
-        <div class="nav-right nav-menu">
-          <a class="nav-item" href="#">
+        </div>
+      </div>
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="#">
             Home
           </a>
-          <a class="nav-item" href="#">
-            Documentation
+          <a class="navbar-item" href="#">
+            Archives
           </a>
-          <a class="nav-item" href="#">
-            Blog
-          </a>
-
-          <span class="nav-item">
-            <a class="button" >
-              <span class="icon">
-                <i class="fa fa-twitter"></i>
-              </span>
-              <span>Tweet</span>
-            </a>
-            <a class="button is-primary" href="#">
-              <span class="icon">
-                <i class="fa fa-download"></i>
-              </span>
-              <span>Download</span>
-            </a>
-          </span>
         </div>
-      </nav>
-      <section class="hero is-fullheight is-default is-bold">
-        <div class="hero-body">
-          <div class="container">
-            <div class="column is-full-desktop">
-              <h1 class="blog-timestamp">
-                2 days ago
-              </h1>
-              <h1 class="blog-title">
-                Cras feugiat euismod sem accumsan ultrices.
-              </h1>
-              <h2 class="blog-summary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare malesuada dolor ut dictum. Pellentesque eget orci nisl. Vivamus sit amet ullamcorper elit. Donec mattis scelerisque dui sed convallis.
-              </h2>
+      </div>
+    </nav>
+    <!-- END NAV -->
+
+    <!-- START ARTICLE FEED -->
+    <section class="articles">
+        <div class="column is-8 is-offset-2">
+
+          <!-- START PROMO BLOCK -->
+          <section class="hero is-danger is-bold is-small promo-block">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title">
+                  <i class="fa fa-bell-o"></i> 
+                   Lorem dolor sed viverra
+                </h1>
+                <h2 class="subtitle">
+                  Consequat id porta nibh venenatis cras sed felis eget
+                </h2>
+              </div>
             </div>
-            <div class="column is-full-desktop">
-              <h1 class="blog-timestamp">
-                1 week ago
-              </h1>
-              <h1 class="blog-title">
-                Praesent dignissim vestibulum ex
-              </h1>
-              <h2 class="blog-summary">
-               Fusce sagittis ultrices ipsum quis posuere. Donec ornare, erat eget sollicitudin sagittis, lacus augue consectetur lorem, at pretium mauris ligula quis nisi. Curabitur ligula nisi, elementum at dapibus sit amet, venenatis a libero. Duis libero erat, pellentesque ac arcu ut, ultrices condimentum lacus.
-             </h2>
-           </div>
-           <div class="column is-full-desktop">
-            <h1 class="blog-timestamp">
-              1 year ago
-            </h1>
-            <h1 class="blog-title">
-              Phasellus aliquam sem libero
-            </h1>
-            <h2 class="blog-summary">
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla sit amet facilisis purus, quis ullamcorper eros. Duis aliquam dignissim ipsum, malesuada commodo justo. Aliquam finibus vel massa non pharetra. Cras congue luctus pulvinar.
-            </h2>
-          </div>
-        </div>
-      </div>
+          </section>
+          <!-- END PROMO BLOCK -->
 
-      <div class="hero-foot">
-        <div class="container">
-          <div class="tabs is-centered">
-            <ul>
-              <li><a href="#">View more posts</a></li>
-            </ul>
+          <!-- START ARTICLE -->
+          <div class="card article">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-center">
+                    <img src="http://www.radfaces.com/images/avatars/daria-morgendorffer.jpg" class="author-image" alt="Placeholder image">
+                </div>
+                <div class="media-content has-text-centered">
+                  <p class="title article-title">Introducing a new feature for paid subscribers</p>
+                  <p class="subtitle is-6 article-subtitle">
+                    <a href="#">@d</a> on October 7, 2017
+                  </p>
+                </div>
+              </div>
+
+            <div class="content article-body">
+                <p>Non arcu risus quis varius quam quisque. Dictum varius duis at consectetur lorem. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. </p>
+                <p>Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Accumsan lacus vel facilisis volutpat. Non sodales neque sodales ut etiam. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus.</p>
+                <h3 class="has-text-centered">Feugiat sed lectus vestibulum mattis.</h3>
+                <p> Molestie ac feugiat sed lectus vestibulum. Feugiat sed lectus vestibulum mattis. Volutpat diam ut venenatis tellus in metus vulputate. Feugiat in fermentum posuere urna nec. Pharetra convallis posuere morbi leo urna molestie at. Accumsan lacus vel facilisis volutpat est velit egestas. Fermentum leo vel orci porta. Faucibus interdum posuere lorem ipsum.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+          <!-- END ARTICLE -->
+
+          <!-- START ARTICLE -->
+          <div class="card article">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-center">
+                    <img src="http://www.radfaces.com/images/avatars/skeeter-valentine.jpg" class="author-image" alt="Placeholder image">
+                </div>
+                <div class="media-content has-text-centered">
+                  <p class="title article-title">Sapien eget mi proin sed 🙌</p>
+                  <p class="subtitle is-6 article-subtitle">
+                    <a href="#">@skeetskeet</a> on October 7, 2017
+                  </p>
+                </div>
+              </div>
+            <div class="content article-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel facilisis volutpat est velit egestas. Sapien eget mi proin sed. Sit amet mattis vulputate enim. 
+              </p>
+              <p>
+              Commodo ullamcorper a lacus vestibulum sed arcu. Fermentum leo vel orci porta non. Proin fermentum leo vel orci porta non pulvinar. Imperdiet proin fermentum leo vel. Tortor posuere ac ut consequat semper viverra. Vestibulum lectus mauris ultrices eros. </p>
+              <h3 class="has-text-centered">Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Cras tincidunt lobortis feugiat vivamus.</h3> 
+              <p>
+                In eu mi bibendum neque egestas congue quisque egestas diam. Enim nec dui nunc mattis enim ut tellus. Ut morbi tincidunt augue interdum velit euismod in. At in tellus integer feugiat scelerisque varius morbi enim nunc. Vitae suscipit tellus mauris a diam. Arcu non sodales neque sodales ut etiam sit amet.
+              </p>
+              </div>
+            </div>
+          </div>
+          <!-- END ARTICLE -->
+
+          <!-- START PROMO BLOCK -->
+          <section class="hero is-info is-bold is-small promo-block">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title">
+                  <i class="fa fa-bell-o"></i> 
+                   Lorem dolor sed viverra
+                </h1>
+                <h2 class="subtitle">
+                  Consequat id porta nibh venenatis cras sed felis eget
+                </h2>
+              </div>
+            </div>
+          </section>
+          <!-- END PROMO BLOCK -->
+
+          <!-- START ARTICLE -->
+          <div class="card article">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-center">
+                    <img src="http://www.radfaces.com/images/avatars/garth-algar.jpg" class="author-image" alt="Placeholder image">
+                </div>
+                <div class="media-content has-text-centered">
+                  <p class="title article-title">Cras tincidunt lobortis feugiat vivamus.</p>
+                  <p class="subtitle is-6 article-subtitle">
+                    <a href="#">@galgar</a> on October 7, 2017
+                  </p>
+                </div>
+              </div>
+            <div class="content article-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel facilisis volutpat est velit egestas. Sapien eget mi proin sed. Sit amet mattis vulputate enim. 
+              </p>
+              <p>
+              Commodo ullamcorper a lacus vestibulum sed arcu. Fermentum leo vel orci porta non. Proin fermentum leo vel orci porta non pulvinar. Imperdiet proin fermentum leo vel. Tortor posuere ac ut consequat semper viverra. Vestibulum lectus mauris ultrices eros. </p>
+              <h3 class="has-text-centered">Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Cras tincidunt lobortis feugiat vivamus.</h3> 
+              <p>
+                In eu mi bibendum neque egestas congue quisque egestas diam. Enim nec dui nunc mattis enim ut tellus. Ut morbi tincidunt augue interdum velit euismod in. At in tellus integer feugiat scelerisque varius morbi enim nunc. Vitae suscipit tellus mauris a diam. Arcu non sodales neque sodales ut etiam sit amet.
+              </p>
+              </div>
+            </div>
+          </div>
+          <!-- END ARTICLE -->
     </section>
+    <!-- END ARTICLE FEED -->
   </div>
-</div>
-<footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-      <p>
-        <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
-      </p>
-      <p>
-        <a class="icon" href="https://github.com/jgthms/bulma">
-          <i class="fa fa-github"></i>
-        </a>
-      </p>
-    </div>
-  </div>
-</footer>
-<script async type="text/javascript" src="../js/bulma.js"></script>
+  <script async type="text/javascript" src="../js/bulma.js"></script>
 </body>
 </html>
