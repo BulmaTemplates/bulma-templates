@@ -1,0 +1,21 @@
+html, body {
+  font-family: 'Open Sans', serif;
+  background: #F0F2F4;
+}
+.card {
+  margin-bottom: 3rem;
+}
+.content-wrapper {
+  margin-top: 3rem;
+}
+.card-footer-item {
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+}
+.card-header-title {
+  display: block;
+}
+.card-content p {
+  margin-bottom: 2rem;
+}
