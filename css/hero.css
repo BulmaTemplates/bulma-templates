@@ -1,24 +1,58 @@
-body {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+html,body {
+  background: #EFF3F4;
+  font-family: 'Open Sans', serif;
 }
-.header-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.49),rgba(0, 0, 0, 0.89)),url('https://images.unsplash.com/1/iphone-4-closeup.jpg?dpr=1&auto=format&crop=middle&fit=crop&w=2000&h=700&q=80');
+.hero.is-primary {
+  background: #56ab2f;
+  background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);
+  background: linear-gradient(to right, #a8e063, #56ab2f);
 }
-.is-outlined {
-  background-color:transparent;
-  color:#fff;
+.hero-body .container {
+  max-width: 700px;
 }
-.hero-cta {
-  padding: 30px 0;
+.hero-body .title {
+  color: hsl(192,17%,99%) !important;
 }
-.panel-block.section p {
-  font-size: 17px;
-  line-height: 1.4;
-  color:#95A5A6;
+.hero-body .subtitle {
+  color: hsl(192,17%,99%) !important;
+  padding-top: 2rem;
+  line-height: 1.5;
 }
-.section.main {
-  background-color:#F0F0F0;
+.features {
+  padding: 5rem 0;
 }
-.icon-block {
-  font-size:5em;
+.box.cta {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+}
+.card-image > .fa {
+  font-size: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #a8e063;
+}
+.card-content .content {
+  font-size: 14px;
+  margin: 1rem 1rem;
+}
+.card-content .content h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  margin-bottom: 2rem;
+}
+.intro {
+  padding: 5rem 0;
+  text-align: center;
+}
+.sandbox {
+  padding: 5rem 0;
+}
+.tile.notification {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
