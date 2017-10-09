@@ -2,7 +2,7 @@
 Free Templates for the Bulma CSS Framework
 
 ## Versions
-  The original bulma templates were made with version 0.1.1 and can be found in the **0.1.1** branch. The newest templates are made with version 0.5.3 and can be found in the **master** branch until they are finished and will be tagged in a **0.5.x** branch once complete. The templates on dansup.github.io are based on the **0.5.3** branch.
+  The original bulma templates were made with version 0.1.1 and can be found in the **0.1.1** branch. The newest templates are made with version 0.5.3 and can be found in the **master** branch until they are finished and will be tagged in a **0.5.x** branch once complete. The templates on dansup.github.io are based on the **master** branch.
   
   
 ## Templates
