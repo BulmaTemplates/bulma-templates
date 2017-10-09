@@ -1,60 +1,81 @@
-body {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+html, body {
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
+  line-height: 1.5;
+  height: 100%;
+  background: #ECF0F3;
+}
+nav.navbar {
+  border-top: 4px solid #276cda;
+  margin-bottom: 1rem;
+}
+.navbar-item.brand-text {
+  font-weight: 300;
+}
+.navbar-item, .navbar-link {
+  font-size: 14px;
+  font-weight: 700;
+}
+.columns {
+  width: 100%;
   height: 100%;
 }
-.button.is-success {
-  background-color: #2EB398;
+.menu-label {
+  color: #8F99A3;
+  letter-spacing: 1.3;
+  font-weight: 700;
 }
-.nav.is-dark {
-  background-color: #232B2D;
-  color: #F6F7F7;
+.menu-list a {
+  color: #0F1D38;
+  font-size: 14px;
+  font-weight: 700;
 }
-.nav.is-dark .nav-item a, .nav.is-dark a.nav-item {
-    color: #F6F7F7;
+.menu-list a:hover {
+  background-color: transparent;
+  color: #276cda;
 }
-.nav.is-dark .nav-item a.button.is-default {
-    color: #F6F7F7;
-    background-color: transparent;
-    border-width: 2px;
+.menu-list a.is-active {
+  background-color: transparent;
+  color: #276cda;
+  font-weight: 700;
 }
-.aside {
-  background-color: #354052;
-  margin-right: -10px;
+.card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  margin-bottom: 2rem;
 }
-.aside .main {
-  padding: 40px;
-  color: #6F7B7E;
+.card-header-title {
+  color: #8F99A3;
+  font-weight: 400;
 }
-.aside .title {
-  color: #6F7B7E;
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
+.info-tiles {
+  margin: 1rem 0;
 }
-.aside .main .item {
-  display: block;
-  padding: 10px 0;
-  color: #6F7B7E;
+.info-tiles .subtitle {
+  font-weight: 300;
+  color: #8F99A3;
 }
-.aside .main .item.active {
-  color: #F6F7F7;
+.hero.welcome.is-info {
+  background: #36D1DC;
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);
+  background: linear-gradient(to right, #5B86E5, #36D1DC);
 }
-.aside .main .icon {
-  font-size: 19px;
-  padding-right: 30px;
+.hero.welcome .title, .hero.welcome .subtitle {
+  color: hsl(192, 17%, 99%);
 }
-.aside .main .name {
-  font-size: 16px;
-  font-weight: bold;
+.card .content {
+  font-size: 14px;
 }
-.admin-panel {
-  padding-bottom: 0;
+.card-footer-item {
+  font-size: 14px;
+  font-weight: 700;
+  color: #8F99A3;
 }
-.content {
-  display: block;
-  background-color: #fff;
-  padding: 40px 20px;
+.card-footer-item:hover {
 }
-.hero .tabs ul {
-    border-bottom: 1px solid #d3d6db;
+.card-table .table {
+  margin-bottom: 0;
+}
+.events-card .card-table {
+  max-height: 250px;
+  overflow-y: scroll;
 }
