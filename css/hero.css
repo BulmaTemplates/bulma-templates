@@ -2,11 +2,6 @@ html,body {
   background: #EFF3F4;
   font-family: 'Open Sans', serif;
 }
-.hero.is-primary {
-  background: #56ab2f;
-  background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);
-  background: linear-gradient(to right, #a8e063, #56ab2f);
-}
 .hero-body .container {
   max-width: 700px;
 }
@@ -30,7 +25,7 @@ html,body {
   font-size: 8rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: #a8e063;
+  color: #209cee;
 }
 .card-content .content {
   font-size: 14px;
