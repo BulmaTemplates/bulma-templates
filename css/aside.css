@@ -1,0 +1,19 @@
+.columns {
+    height: 50rem;
+    margin-top: 0;
+}
+aside.column {
+    /* background-color: lightgray; */
+    padding: 0;
+}
+section.column {
+    padding: 2rem;
+}
+
+.panel-heading, .panel-block {
+    border: 0;
+    border-radius: 0;
+}
+.panel-block {
+    justify-content: center;
+}
