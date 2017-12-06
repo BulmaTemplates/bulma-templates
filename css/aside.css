@@ -1,0 +1,21 @@
+.columns {
+    margin-top: 0;
+}
+
+/* Start nav drawer */
+aside.column {
+    padding: 0;
+    box-shadow: 2px 0px 4px #888888;
+}
+.panel-heading, .panel-block {
+    border: 0;
+    border-radius: 0;
+}
+.panel-block {
+    justify-content: center;
+}
+/*End nav drawer  */
+
+section.column {
+    padding: 2rem;
+}
