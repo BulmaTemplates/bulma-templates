@@ -51,3 +51,34 @@ html,body {
   justify-content: center;
   flex-direction: column;
 }
+.is-shady {
+animation: flyintoright .4s backwards;
+background: #fff;
+box-shadow: rgba(0, 0, 0, .1) 0 1px 0;
+border-radius: 4px;
+display: inline-block;
+margin: 10px;
+position: relative;
+transition: all .2s ease-in-out;
+}
+.is-shady:hover {
+box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
+}
+.is-shady:nth-child(0) {
+animation-delay: .74s
+}
+.is-shady:nth-child(1) {
+animation-delay: .37s
+}
+.is-shady:nth-child(2) {
+animation-delay: .45s
+}
+.is-shady:nth-child(3) {
+animation-delay: .7s
+}
+.is-shady:nth-child(4) {
+animation-delay: .35s
+}
+.is-shady:nth-child(5) {
+animation-delay: .4s
+}
