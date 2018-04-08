@@ -1,4 +1,4 @@
-# Bulma Templates ![bulma.io](https://bulma.io/images/made-with-bulma.png)
+# Bulma Templates ![bulma.io](https://bulma.io/images/made-with-bulma.png=128x24)
 Free Templates for the Bulma CSS Framework
 
 ## Versions
