@@ -1,4 +1,4 @@
-# Bulma Templates ![bulma.io](https://bulma.io/images/made-with-bulma.png){:height="128" width="24px"}
+# Bulma Templates
 Free Templates for the Bulma CSS Framework
 
 ## Versions
