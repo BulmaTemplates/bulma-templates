@@ -54,3 +54,6 @@ article.post:last-child {
   padding-bottom: 0;
   border-bottom: none;
 }
+.menu-list li{
+  padding: 5px;
+}
