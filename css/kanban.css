@@ -1,0 +1,26 @@
+#sectioncontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0;
+  margin-top: 20px;
+}
+
+.board-item {
+  margin: 5px 0;
+  will-change: transform;
+}
+
+.board-item-content {
+  word-wrap: normal;
+  position: relative;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.2);
+  box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.2);
+
+
+
