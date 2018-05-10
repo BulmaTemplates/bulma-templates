@@ -1,5 +1,5 @@
 # Bulma Templates
-Free Templates for the Bulma CSS Framework
+Free Templates for the Bulma CSS Framework ![bulma version](https://img.shields.io/badge/bulma-0.7.1-blue.svg)
 
 ## Versions
   The original bulma templates were made with version 0.1.1 and can be found in the **0.1.1** branch. The newest templates are made with version 0.6.0 and can be found in the **master** branch until they are finished and will be tagged in a **0.6.x** branch once complete. The templates on dansup.github.io are based on the **master** branch.
