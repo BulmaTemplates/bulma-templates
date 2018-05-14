@@ -64,3 +64,11 @@ transition: all .2s ease-in-out;
 .is-shady:hover {
 box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
 }
+/*adds font awesome stars*/
+footer li:before {
+  content: '\f1b2';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color: #147efb;
+}
