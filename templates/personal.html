@@ -19,7 +19,7 @@
 
 <body>
   <!-- Navigation bar -->
-  <nav class="navbar is-primary is-fixed-top">
+  <nav class="navbar is-link is-fixed-top">
     <div class="navbar-brand">
       <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
         <span></span>
@@ -31,65 +31,68 @@
     <div id="navbarExampleTransparentExample" class="navbar-menu">
       <div class="navbar-end">
         <a class="navbar-item" href="#about">
-          About
+          <span class="icon">
+            <i class="fas fa-info"></i>
+          </span>
+          <span>About</span>
         </a>
         <a class="navbar-item" href="#services">
-          Services
+          <span class="icon">
+            <i class="fas fa-bars"></i>
+          </span>
+          <span>Services</span>
         </a>
         <a class="navbar-item" href="#resume">
-          Resume
+          <span class="icon">
+            <i class="fas fa-file-alt"></i>
+          </span>
+          <span>Resume</span>
         </a>
         <a class="navbar-item" href="#portfolio">
-          Portfolio
+          <span class="icon">
+            <i class="fas fa-th-list"></i>
+          </span>
+          <span>Portfolio</span>
         </a>
         <a class="navbar-item" href="#contact">
-          Contact
+          <span class="icon">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span>Contact</span>
         </a>
       </div>
     </div>
   </nav>
 
   <!-- Header -->
-  <section class="hero is-primary is-fullheight is-fullheight-with-navbar">
+  <section class="hero is-link is-fullheight is-fullheight-with-navbar">
     <div class="hero-body">
       <div class="container">Hello! I am
         <h1 class="title is-1">
           Minion Tim
         </h1>
-        <h2 class="subtitle is-4">
+        <h2 class="subtitle is-3">
           Full Stack Web Developer
         </h2>
       </div>
     </div>
   </section>
 
+  <!-- About -->
   <section class="section" id="about">
     <!-- Title -->
     <div class="section-heading">
       <h3 class="title is-2">About Me</h3>
       <h4 class="subtitle is-5">Jack of all trades, master of "some"</h4>
-    </div>
-  </section>
-
-  <!-- About -->
-  <div class="container-fluid">
-    <section class="hero is-primary">
-      <div class="hero-body">
-        <div class="container">
-          <!-- <h1 class="title">
-              About Me
-            </h1> -->
-          <div style="font-size: 1.25em">
-            <p>Web developer with more than <strong>4 years</strong> of well-rounded experience with a degree in the
-              field of
-              <strong>Computer Science</strong>, extensive knowledge of modern Web techniques and love for <strong>Coffee</strong>.
-              Looking for an opportunity to work and upgrade, as well as being involved in an organization that
-              believes
-              in gaining a competitive edge and giving back to the community.</p>
-          </div>
-        </div>
+      <div class="container">
+        <p>Web developer with more than <strong>4 years</strong> of well-rounded experience with a degree in the
+          field of
+          <strong>Computer Science</strong>, extensive knowledge of modern Web techniques and love for <strong>Coffee</strong>.
+          Looking for an opportunity to work and upgrade, as well as being involved in an organization that
+          believes
+          in gaining a competitive edge and giving back to the community.</p>
       </div>
-    </section>
+    </div>
 
     <div class="columns has-same-height is-gapless">
       <div class="column">
@@ -209,17 +212,19 @@
         </div>
       </div>
     </div>
-    <!-- <br>
-    <div class="tags custom-tags">
-      <span class="tag is-light">Node.js</span><span class="tag is-light">Express.js</span><span class="tag is-light">VueJS</span><span
-        class="tag is-light">JavaScript</span><span class="tag is-light">HTML5</span><span class="tag is-light">Canvas</span><span
-        class="tag is-light">CSS3</span><span class="tag is-light">Bulma</span><span class="tag is-light">Bootstrap</span><span
-        class="tag is-light">jQuery</span><span class="tag is-light">Pug</span><span class="tag is-light">Stylus</span><span
-        class="tag is-light">SASS/SCSS</span><span class="tag is-light">Webpack</span><span class="tag is-light">Git</span><span
-        class="tag is-light">ASP.NET Web Forms</span><span class="tag is-light">MSSQL</span><span class="tag is-light">MongoDB</span><span
-        class="tag is-light">Apache Cordova</span><span class="tag is-light">Chrome Extensions</span>
-    </div> -->
-  </div>
+  </section>
+
+  <!-- Skills tags -->
+  <!-- <br>
+        <div class="tags custom-tags">
+          <span class="tag is-light">Node.js</span><span class="tag is-light">Express.js</span><span class="tag is-light">VueJS</span><span
+            class="tag is-light">JavaScript</span><span class="tag is-light">HTML5</span><span class="tag is-light">Canvas</span><span
+            class="tag is-light">CSS3</span><span class="tag is-light">Bulma</span><span class="tag is-light">Bootstrap</span><span
+            class="tag is-light">jQuery</span><span class="tag is-light">Pug</span><span class="tag is-light">Stylus</span><span
+            class="tag is-light">SASS/SCSS</span><span class="tag is-light">Webpack</span><span class="tag is-light">Git</span><span
+            class="tag is-light">ASP.NET Web Forms</span><span class="tag is-light">MSSQL</span><span class="tag is-light">MongoDB</span><span
+            class="tag is-light">Apache Cordova</span><span class="tag is-light">Chrome Extensions</span>
+        </div> -->
 
   <!-- Services -->
   <section class="section" id="services">
@@ -230,33 +235,19 @@
     <div class="container">
       <div class="columns">
         <div class="column">
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">
-                Front End Web Development
-              </p>
-            </header>
-            <div class="card-content">
-              <div class="content">
-                Develop Front End using latest standards with <strong>HTML5/CSS3</strong> with added funtionality
-                using <strong>JavaScript</strong> and
-                <strong>Vue.js</strong>
-              </div>
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Front End Web Development</h4>
+              Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript and
+              Vue.js.
             </div>
           </div>
         </div>
         <div class="column">
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">
-                Back End Web Development
-              </p>
-            </header>
-            <div class="card-content">
-              <div class="content">
-                Develop Back End application/service using <strong>Node.js</strong> or <strong>ASP .NET</strong> and
-                <strong>SQL server or Mongo DB</strong> databases
-              </div>
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Back End Web Development</h4>
+              Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo DB databases.
             </div>
           </div>
         </div>
@@ -264,33 +255,19 @@
 
       <div class="columns">
         <div class="column">
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">
-                Front End Web Development
-              </p>
-            </header>
-            <div class="card-content">
-              <div class="content">
-                Develop Front End using latest standards with <strong>HTML5/CSS3</strong> with added funtionality
-                using <strong>JavaScript</strong> and
-                <strong>Vue.js</strong>
-              </div>
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Front End Web Development</h4>
+              Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript and
+              Vue.js.
             </div>
           </div>
         </div>
         <div class="column">
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">
-                Back End Web Development
-              </p>
-            </header>
-            <div class="card-content">
-              <div class="content">
-                Develop Back End application/service using <strong>Node.js</strong> or <strong>ASP .NET</strong> and
-                <strong>SQL server or Mongo DB</strong> databases
-              </div>
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Back End Web Development</h4>
+              Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo DB databases.
             </div>
           </div>
         </div>
@@ -303,7 +280,12 @@
     <div class="section-heading">
       <h3 class="title is-2">Resume</h3>
       <h4 class="subtitle is-5">More about my past</h4>
-      <a href="#" class="button is-link is-medium">Download My Resume</a>
+      <a href="#" class="button is-link is-medium">
+        <span class="icon">
+          <i class="fas fa-file-alt"></i>
+        </span>
+        <span>Download My Resume</span>
+      </a>
     </div>
   </section>
 
@@ -774,7 +756,10 @@
 
             <div class="field is-grouped has-text-centered">
               <div class="control">
-                <button class="button is-link is-large">Submit</button>
+                <button class="button is-link is-large"><span class="icon">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <span>Submit</span></button>
               </div>
             </div>
           </div>
