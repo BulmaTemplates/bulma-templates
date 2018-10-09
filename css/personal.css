@@ -23,7 +23,7 @@ th {
 }
 
 .skills-content .progress {
-  height: 5px !important;
+  height: 4px !important;
 }
 
 .custom-tags {
@@ -33,4 +33,10 @@ th {
 
 .portfolio-container .card {
   margin-bottom: 2em;
+}
+
+.section-heading{
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 4em;
 }
