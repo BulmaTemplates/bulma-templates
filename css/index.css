@@ -19,3 +19,6 @@ html, body {
 .card-content p {
   margin-bottom: 2rem;
 }
+.container {
+  max-width: 95%;
+}

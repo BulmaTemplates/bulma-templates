@@ -11,9 +11,20 @@
     <!-- Bulma Version 0.7.1 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    var filter = false;
+
+    function toggleMobile() {
+      var buttonelement = document.getElementById("mobile-button");
+      buttonelement.classList.toggle("is-warning");
+      $("div.desktop-only").toggleClass("is-hidden");
+    }
+    </script>
   </head>
   <body>
-    <section class="hero is-info is-medium is-bold">
+    <section class="hero is-info is-bold">
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="title">
@@ -27,20 +38,25 @@
           <a class="github-button" href="https://github.com/dansup/bulma-templates/fork" data-size="large" data-show-count="true" aria-label="Fork dansup/bulma-templates on GitHub">Fork</a>
         </div>
       </div>
+      </div>
     </section>
+    <br />
+    <div class="container buttons">
+      <a class="button" id="mobile-button" onclick="toggleMobile()">Supports mobile</a>
+    </div>
     <div class="container content-wrapper">
-      <div class="columns">
-        <div class="column is-4">
-          <!-- admin -->
+      <div class="columns is-multiline">
+        <!-- admin -->
+        <div class="column is-3 desktop-only">
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
                 <span>Admin <small>(Light)</small></span>
                 <span class="is-pulled-right">
                   <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
+                    <span class="tag is-default is-primary">v0.7.1</span>
                   </a>
-                  <span class="tag is-default">Desktop</span>
+                  <span class="tag is-default is-info">Desktop</span>
                   <span class="tag is-danger">WIP</span>
                 </span>
               </p>
@@ -55,139 +71,18 @@
               <a href="https://github.com/dansup/bulma-templates/blob/master/templates/admin.html" class="card-footer-item">Source Code</a>
             </footer>
           </div>
-          <!-- cards -->
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">
-                <span>Cards</span>
-                <span class="is-pulled-right">
-                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
-                  </a>
-                  <span class="tag is-default">Desktop</span>
-                  <span class="tag is-default">?</span>
-                </span>
-              </p>
-            </header>
-            <div class="card-content">
-              <figure class="image">
-                <img src="images/cards.png" alt="Cards template screenshot">
-              </figure>
-            </div>
-            <footer class="card-footer">
-              <a href="templates/cards.html" class="card-footer-item">Preview</a>
-              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/cards.html" class="card-footer-item">Source Code</a>
-            </footer>
-          </div>
-          <!-- forum -->
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">
-                <span>Forum</span>
-                <span class="is-pulled-right">
-                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
-                  </a>
-                  <span class="tag is-default">Desktop</span>
-                  <span class="tag is-default">Mobile</span>
-                </span>
-              </p>
-            </header>
-            <div class="card-content">
-              <figure class="image">
-                <img src="images/forum.png" alt="Hero template screenshot">
-              </figure>
-            </div>
-            <footer class="card-footer">
-              <a href="templates/forum.html" class="card-footer-item">Preview</a>
-              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/forum.html" class="card-footer-item">Source Code</a>
-            </footer>
-          </div>
-          <!-- insta album -->
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">
-                <span>InstaAlbum</span>
-                <span class="is-pulled-right">
-                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
-                  </a>
-                  <span class="tag is-default">Desktop</span>
-                  <span class="tag is-default">Mobile</span>
-                </span>
-              </p>
-            </header>
-            <div class="card-content">
-              <figure class="image">
-                <img src="images/instaalbum.png" alt="Landing template screenshot">
-              </figure>
-            </div>
-            <footer class="card-footer">
-              <a href="templates/instaAlbum.html" class="card-footer-item">Preview</a>
-              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/instaAlbum.html" class="card-footer-item">Source Code</a>
-            </footer>
-          </div>
-          <!-- landing -->
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">
-                <span>Landing</span>
-                <span class="is-pulled-right">
-                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
-                  </a>
-                  <span class="tag is-default">Desktop</span>
-                  <span class="tag is-default">Mobile</span>
-                </span>
-              </p>
-            </header>
-            <div class="card-content">
-              <figure class="image">
-                <img src="images/landing.png" alt="Landing template screenshot">
-              </figure>
-            </div>
-            <footer class="card-footer">
-              <a href="templates/landing.html" class="card-footer-item">Preview</a>
-              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/landing.html" class="card-footer-item">Source Code</a>
-            </footer>
-          </div>
-          
-        <!--Personal/Portfolio template-->
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">
-                <span>Personal Portfolio</span>
-                <span class="is-pulled-right">
-                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
-                  </a>
-                  <span class="tag is-default">Desktop</span>
-                  <span class="tag is-default">mobile</span>
-                </span>
-              </p>
-            </header>
-            <div class="card-content">
-              <figure class="image">
-                <img src="images/personal.png" alt="personal portfolio template screenshot">
-              </figure>
-            </div>
-            <footer class="card-footer">
-              <a href="templates/personal.html" class="card-footer-item">Preview</a>
-              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/personal.html" class="card-footer-item">Source Code</a>
-            </footer>
-          </div>
         </div>
-        <div class="column is-4">
-          <!-- band -->
+        <!-- band -->
+        <div class="column is-3">
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
                 <span>Band</span>
                 <span class="is-pulled-right">
                   <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
+                    <span class="tag is-default is-primary">v0.7.1</span>
                   </a>
-                  <span class="tag is-default">Desktop</span>
+                  <span class="tag is-default is-info">Desktop</span>
                   <span class="tag is-default">?</span>
                 </span>
               </p>
@@ -202,140 +97,18 @@
               <a href="https://github.com/dansup/bulma-templates/blob/master/templates/band.html" class="card-footer-item">Source Code</a>
             </footer>
           </div>
-          <!-- cheatsheet -->
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">
-                <span>Cheatsheet</span>
-                <span class="is-pulled-right">
-                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
-                  </a>
-                  <span class="tag is-default">Desktop</span>
-                  <span class="tag is-default">?</span>
-                </span>
-              </p>
-            </header>
-            <div class="card-content">
-              <figure class="image">
-                <img src="images/cheatsheet.png" alt="Cheatsheet template screenshot">
-              </figure>
-            </div>
-            <footer class="card-footer">
-              <a href="templates/cheatsheet.html" class="card-footer-item">Preview</a>
-              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/cheatsheet.html" class="card-footer-item">Source Code</a>
-            </footer>
-          </div>
-          <!-- hero -->
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">
-                <span>Hero</span>
-                <span class="is-pulled-right">
-                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
-                  </a>
-                  <span class="tag is-default">Desktop</span>
-                  <span class="tag is-default">?</span>
-                </span>
-              </p>
-            </header>
-            <div class="card-content">
-              <figure class="image">
-                <img src="images/hero.png" alt="Hero template screenshot">
-              </figure>
-            </div>
-            <footer class="card-footer">
-              <a href="templates/hero.html" class="card-footer-item">Preview</a>
-              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/hero.html" class="card-footer-item">Source Code</a>
-            </footer>
-          </div>
-          <!--kanban -->
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">
-                <span>Kanban</span>
-                <span class="is-pulled-right">
-                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
-                  </a>
-                  <span class="tag is-default">Desktop</span>
-                  <span class="tag is-default">?</span>
-                </span>
-              </p>
-            </header>
-            <div class="card-content">
-              <figure class="image">
-                <img src="images/kanban.png" alt="Kanban template screenshot">
-              </figure>
-            </div>
-            <footer class="card-footer">
-              <a href="templates/kanban.html" class="card-footer-item">Preview</a>
-              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/kanban.html" class="card-footer-item">Source Code</a>
-            </footer>
-          </div>
-          <!-- login -->
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">
-                <span>Login</span>
-                <span class="is-pulled-right">
-                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
-                  </a>
-                  <span class="tag is-default">Desktop</span>
-                  <span class="tag is-default">Mobile</span>
-                </span>
-              </p>
-            </header>
-            <div class="card-content">
-              <figure class="image">
-                <img src="images/login.png" alt="Login template screenshot">
-              </figure>
-            </div>
-            <footer class="card-footer">
-              <a href="templates/login.html" class="card-footer-item">Preview</a>
-              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/login.html" class="card-footer-item">Source Code</a>
-            </footer>
-          </div>
-          
-          <!--tabs-->
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">
-                <span>Tabs</span>
-                <span class="is-pulled-right">
-                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
-                  </a>
-                  <span class="tag is-default">Desktop</span>
-                  <span class="tag is-default">?</span>
-                </span>
-              </p>
-            </header>
-            <div class="card-content">
-              <figure class="image">
-                <img src="images/tabs.png" alt="tabs template screenshot">
-              </figure>
-            </div>
-            <footer class="card-footer">
-              <a href="templates/tabs.html" class="card-footer-item">Preview</a>
-              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/tabs.html" class="card-footer-item">Source Code</a>
-            </footer>
-          </div>
-          
         </div>
-        <div class="column is-4">
-          <!-- blog -->
+        <!-- blog -->
+        <div class="column is-3 desktop-only">
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
                 <span>Blog</span>
                 <span class="is-pulled-right">
                   <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
+                    <span class="tag is-default is-primary">v0.7.1</span>
                   </a>
-                  <span class="tag is-default">Desktop</span>
+                  <span class="tag is-default is-info">Desktop</span>
                   <span class="tag is-danger">WIP</span>
                 </span>
               </p>
@@ -350,17 +123,71 @@
               <a href="https://github.com/dansup/bulma-templates/blob/master/templates/blog.html" class="card-footer-item">Source Code</a>
             </footer>
           </div>
-          <!-- cover -->
+        </div>
+        <!-- cards -->
+        <div class="column is-3">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                <span>Cards</span>
+                <span class="is-pulled-right">
+                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
+                    <span class="tag is-default is-primary">v0.7.1</span>
+                  </a>
+                  <span class="tag is-default is-info">Desktop</span>
+                  <span class="tag is-default">?</span>
+                </span>
+              </p>
+            </header>
+            <div class="card-content">
+              <figure class="image">
+                <img src="images/cards.png" alt="Cards template screenshot">
+              </figure>
+            </div>
+            <footer class="card-footer">
+              <a href="templates/cards.html" class="card-footer-item">Preview</a>
+              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/cards.html" class="card-footer-item">Source Code</a>
+            </footer>
+          </div>
+        </div>
+        <!-- cheatsheet -->
+        <div class="column is-3">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                <span>Cheatsheet</span>
+                <span class="is-pulled-right">
+                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
+                    <span class="tag is-default is-primary">v0.7.1</span>
+                  </a>
+                  <span class="tag is-default is-info">Desktop</span>
+                  <span class="tag is-default">?</span>
+                </span>
+              </p>
+            </header>
+            <div class="card-content">
+              <figure class="image">
+                <img src="images/cheatsheet.png" alt="Cheatsheet template screenshot">
+              </figure>
+            </div>
+            <footer class="card-footer">
+              <a href="templates/cheatsheet.html" class="card-footer-item">Preview</a>
+              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/cheatsheet.html" class="card-footer-item">Source Code</a>
+            </footer>
+          </div>
+        </div>
+        <!-- cover -->
+        <div class="column is-3">
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
                 <span>Cover</span>
                 <span class="is-pulled-right">
                   <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
+                    <span class="tag is-default is-primary">v0.7.1</span>
                   </a>
-                  <span class="tag is-default">Desktop</span>
-                  <span class="tag is-default">Mobile</span>
+                  <span class="tag is-default is-info">Desktop</span>
+                  <span class="tag is-default is-warning">mobile</span>
                 </span>
               </p>
             </header>
@@ -374,17 +201,71 @@
               <a href="https://github.com/dansup/bulma-templates/blob/master/templates/cover.html" class="card-footer-item">Source Code</a>
             </footer>
           </div>
-          <!--inbox -->
+        </div>
+        <!-- forum -->
+        <div class="column is-3">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                <span>Forum</span>
+                <span class="is-pulled-right">
+                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
+                    <span class="tag is-default is-primary">v0.7.1</span>
+                  </a>
+                  <span class="tag is-default is-info">Desktop</span>
+                  <span class="tag is-default is-warning">mobile</span>
+                </span>
+              </p>
+            </header>
+            <div class="card-content">
+              <figure class="image">
+                <img src="images/forum.png" alt="Hero template screenshot">
+              </figure>
+            </div>
+            <footer class="card-footer">
+              <a href="templates/forum.html" class="card-footer-item">Preview</a>
+              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/forum.html" class="card-footer-item">Source Code</a>
+            </footer>
+          </div>
+        </div>
+        <!-- hero -->
+        <div class="column is-3">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                <span>Hero</span>
+                <span class="is-pulled-right">
+                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
+                    <span class="tag is-default is-primary">v0.7.1</span>
+                  </a>
+                  <span class="tag is-default is-info">Desktop</span>
+                  <span class="tag is-default">?</span>
+                </span>
+              </p>
+            </header>
+            <div class="card-content">
+              <figure class="image">
+                <img src="images/hero.png" alt="Hero template screenshot">
+              </figure>
+            </div>
+            <footer class="card-footer">
+              <a href="templates/hero.html" class="card-footer-item">Preview</a>
+              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/hero.html" class="card-footer-item">Source Code</a>
+            </footer>
+          </div>
+        </div>
+        <!--inbox -->
+        <div class="column is-3">
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
                 <span>Inbox</span>
                 <span class="is-pulled-right">
                   <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
+                    <span class="tag is-default is-primary">v0.7.1</span>
                   </a>
-                  <span class="tag is-default">Desktop</span>
-                  <span class="tag is-default">Mobile</span>
+                  <span class="tag is-default is-info">Desktop</span>
+                  <span class="tag is-default is-warning">mobile</span>
                 </span>
               </p>
             </header>
@@ -398,16 +279,70 @@
               <a href="https://github.com/dansup/bulma-templates/blob/master/templates/inbox.html" class="card-footer-item">Source Code</a>
             </footer>
           </div>
-          <!--kanban with functional search-->
+        </div>
+        <!-- insta album -->
+        <div class="column is-3">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                <span>InstaAlbum</span>
+                <span class="is-pulled-right">
+                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
+                    <span class="tag is-default is-primary">v0.7.1</span>
+                  </a>
+                  <span class="tag is-default is-info">Desktop</span>
+                  <span class="tag is-default is-warning">mobile</span>
+                </span>
+              </p>
+            </header>
+            <div class="card-content">
+              <figure class="image">
+                <img src="images/instaalbum.png" alt="Landing template screenshot">
+              </figure>
+            </div>
+            <footer class="card-footer">
+              <a href="templates/instaAlbum.html" class="card-footer-item">Preview</a>
+              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/instaAlbum.html" class="card-footer-item">Source Code</a>
+            </footer>
+          </div>
+        </div>
+        <!--kanban -->
+        <div class="column is-3">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                <span>Kanban</span>
+                <span class="is-pulled-right">
+                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
+                    <span class="tag is-default is-primary">v0.7.1</span>
+                  </a>
+                  <span class="tag is-default is-info">Desktop</span>
+                  <span class="tag is-default">?</span>
+                </span>
+              </p>
+            </header>
+            <div class="card-content">
+              <figure class="image">
+                <img src="images/kanban.png" alt="Kanban template screenshot">
+              </figure>
+            </div>
+            <footer class="card-footer">
+              <a href="templates/kanban.html" class="card-footer-item">Preview</a>
+              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/kanban.html" class="card-footer-item">Source Code</a>
+            </footer>
+          </div>
+        </div>
+        <!--kanban with functional search-->
+        <div class="column is-3">
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
                 <span>Kanban  with functional Search box</span>
                 <span class="is-pulled-right">
                   <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
+                    <span class="tag is-default is-primary">v0.7.1</span>
                   </a>
-                  <span class="tag is-default">Desktop</span>
+                  <span class="tag is-default is-info">Desktop</span>
                   <span class="tag is-default">?</span>
                 </span>
               </p>
@@ -422,23 +357,77 @@
               <a href="https://github.com/dansup/bulma-templates/blob/master/templates/kanban[search].html" class="card-footer-item">Source Code</a>
             </footer>
           </div>
-          <!--tabs-->
+        </div>
+        <!-- landing -->
+        <div class="column is-3">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                <span>Landing</span>
+                <span class="is-pulled-right">
+                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
+                    <span class="tag is-default is-primary">v0.7.1</span>
+                  </a>
+                  <span class="tag is-default is-info">Desktop</span>
+                  <span class="tag is-default is-warning">mobile</span>
+                </span>
+              </p>
+            </header>
+            <div class="card-content">
+              <figure class="image">
+                <img src="images/landing.png" alt="Landing template screenshot">
+              </figure>
+            </div>
+            <footer class="card-footer">
+              <a href="templates/landing.html" class="card-footer-item">Preview</a>
+              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/landing.html" class="card-footer-item">Source Code</a>
+            </footer>
+          </div>
+        </div>
+        <!-- login -->
+        <div class="column is-3">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                <span>Login</span>
+                <span class="is-pulled-right">
+                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
+                    <span class="tag is-default is-primary">v0.7.1</span>
+                  </a>
+                  <span class="tag is-default is-info">Desktop</span>
+                  <span class="tag is-default is-warning">mobile</span>
+                </span>
+              </p>
+            </header>
+            <div class="card-content">
+              <figure class="image">
+                <img src="images/login.png" alt="Login template screenshot">
+              </figure>
+            </div>
+            <footer class="card-footer">
+              <a href="templates/login.html" class="card-footer-item">Preview</a>
+              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/login.html" class="card-footer-item">Source Code</a>
+            </footer>
+          </div>
+        </div>
+        <!-- modal cards -->
+        <div class="column is-3">
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
                 <span>Modal Cards</span>
                 <span class="is-pulled-right">
                   <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
-                    <span class="tag is-default">v0.7.1</span>
+                    <span class="tag is-default is-primary">v0.7.1</span>
                   </a>
-                  <span class="tag is-default">Desktop</span>
+                  <span class="tag is-default is-info">Desktop</span>
                   <span class="tag is-default">?</span>
                 </span>
               </p>
             </header>
             <div class="card-content">
               <figure class="image">
-                <img src="https://dummyimage.com/555x255/000/fff" alt="modal-cards template screenshot">
+                <img src="images/modalcards.png" alt="modal-cards template screenshot">
               </figure>
             </div>
             <footer class="card-footer">
@@ -446,9 +435,66 @@
               <a href="https://github.com/dansup/bulma-templates/blob/master/templates/modal-cards.html" class="card-footer-item">Source Code</a>
             </footer>
           </div>
-          <div class="box">
-            <p class="has-text-centered">More templates coming soon!</p>
+        </div>
+        <!-- Personal/Portfolio template -->
+        <div class="column is-3">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                <span>Personal Portfolio</span>
+                <span class="is-pulled-right">
+                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
+                    <span class="tag is-default is-primary">v0.7.1</span>
+                  </a>
+                  <span class="tag is-default is-info">Desktop</span>
+                  <span class="tag is-default is-warning">mobile</span>
+                </span>
+              </p>
+            </header>
+            <div class="card-content">
+              <figure class="image">
+                <img src="images/personal.png" alt="personal portfolio template screenshot">
+              </figure>
+            </div>
+            <footer class="card-footer">
+              <a href="templates/personal.html" class="card-footer-item">Preview</a>
+              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/personal.html" class="card-footer-item">Source Code</a>
+            </footer>
           </div>
+        </div>
+        <!-- tabs -->
+        <div class="column is-3">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                <span>Tabs</span>
+                <span class="is-pulled-right">
+                  <a href="https://github.com/jgthms/bulma/releases/tag/0.7.1">
+                    <span class="tag is-default is-primary">v0.7.1</span>
+                  </a>
+                  <span class="tag is-default is-info">Desktop</span>
+                  <span class="tag is-default">?</span>
+                </span>
+              </p>
+            </header>
+            <div class="card-content">
+              <figure class="image">
+                <img src="images/tabs.png" alt="tabs template screenshot">
+              </figure>
+            </div>
+            <footer class="card-footer">
+              <a href="templates/tabs.html" class="card-footer-item">Preview</a>
+              <a href="https://github.com/dansup/bulma-templates/blob/master/templates/tabs.html" class="card-footer-item">Source Code</a>
+            </footer>
+          </div>
+        </div>
+        <!-- coming soon -->
+        <div class="column">
+          <center>
+            <div class="box">
+              <p class="has-text-centered">More templates coming soon!</p>
+            </div>
+          </center>
         </div>
       </div>
     </div>
