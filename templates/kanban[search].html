@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>
-    bulma|vue kanban
-  </title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css" rel="stylesheet prefetch">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet prefetch">
-  <link href="../css/kanban.css" rel="stylesheet">
-</head>
-<body>
-  <div id="app">
-    <nav class="navbar has-shadow">
-      <div class="container">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="../">
-            <img alt="Bulma: a modern CSS framework based on Flexbox" src="http://bulma.io/images/bulma-logo.png">
-          </a>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>bulma|vue kanban</title>
+    
+    
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+    <link rel="stylesheet" href="../css/kanban.css">
+    
+  </head>
+  <body>
+    <div id="app">
+      <nav class="navbar has-shadow">
+        <div class="container">
+          <div class="navbar-brand"><a class="navbar-item" href="../">
+          <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox"/></a>
         </div>
       </div>
     </nav>
@@ -27,14 +26,9 @@
             <div class="card-content">
               <div class="content">
                 <div class="control has-icons-left has-icons-right search-field">
-                  <input class="input is-large" placeholder="search" type="text" v-model="search">
-                  <span class="icon is-medium is-left">
-                    <i class="fa fa-search">
-                    </i>
-                  </span>
+                  <input class="input is-large" type="text" placeholder="ｓｅａｒｃｈｂｏｘ" v-model="search" /><span class="icon is-medium is-left"><i class="fa fa-search"></i></span>
                   <span class="icon is-medium is-right">
-                    <i @click="clearSearchField()" class="delete is-medium clear-search" v-if="search.length">
-                    </i>
+                    <i class="delete is-medium clear-search" @click="clearSearchField()" v-if="search.length"></i>
                   </span>
                 </div>
               </div>
@@ -43,40 +37,25 @@
         </div>
       </div>
     </section>
-    <div class="box cta">
-      <p class="has-text-centered">
-        Powered by
-        <span class="tag is-link">
-          Vue.js
-        </span>
-        . All the data is stored inside of
-        <span class="tag is-black">
-          kanban.js
-        </span>
-        file, and can be easily changed according to your needs.
-      </p>
+        <div class="box cta">
+        <p class="has-text-centered">
+           Powered by  <span class="tag is-link">Vue.js</span>. All the data is stored inside of <span class="tag is-black">kanban.js</span> file, and can be easily changed according to your needs.
+        </p>
     </div>
     <!-- Loop through the parent array -->
-    <section class="container">
+    <section class="container" >
       <div class="columns is-mobile is-centered" id="sectioncontainer">
         <div class="column is-narrow" v-for="yxy in filteredCards">
-          <article :class="'is-' + yxy.cardColor" class="message">
+          <article class="message" :class="'is-' + yxy.cardColor">
             <div class="message-header">
               <!-- Make a header using the `name` property from the current season in the loop -->
-              <p>
-                {{title}} &raquo; {{ yxy.name}}
-              </p>
-              <button @click="removeCard(yxy)" aria-label="delete" class="delete">
-              </button>
+              <p>{{title}} » {{ yxy.name}}</p>
+              <button class="delete" aria-label="delete" @click="removeCard(yxy)"></button>
             </div>
             <div class="message-body">
               <div class="board-item">
                 <!-- Loop through the `items` array from the current season to show each item -->
-                <div class="board-item-content" v-for="item in yxy.items">
-                  <span>
-                    {{ item}}
-                  </span>
-                </div>
+                <div class="board-item-content" v-for="item in yxy.items"><span>{{ item}}</span></div>
               </div>
             </div>
           </article>
@@ -89,34 +68,17 @@
       <div class="columns is-mobile is-centered">
         <div class="field is-grouped is-grouped-multiline">
           <div class="control">
-            <div class="tags has-addons">
-              <a class="tag is-link" href="https://github.com/dansup/bulma-templates">
-                Bulma Templates
-              </a>
-              <span class="tag is-light">
-                Daniel Supernault
-              </span>
-            </div>
+            <div class="tags has-addons"><a class="tag is-link" href="https://github.com/dansup/bulma-templates">Bulma Templates</a><span class="tag is-light">Daniel Supernault</span></div>
           </div>
           <div class="control">
-            <div class="tags has-addons">
-              <a class="tag is-link">
-                The source code is licensed
-              </a>
-              <span class="tag is-light">
-                MIT &nbsp;
-                <i class="fa fa-github">
-                </i>
-              </span>
-            </div>
+            <div class="tags has-addons"><a class="tag is-link">The source code is licensed</a><span class="tag is-light">MIT  <i class="fa fa-github"></i></span></div>
           </div>
         </div>
       </div>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.js">
-  </script>
-  <script src="../js/kanban.js">
-  </script>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.js'></script>
+<script  src="../js/kanban.js"></script>
 </body>
 </html>
