@@ -1,217 +1,406 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Search - Free Bulma template</title>
-    <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!-- Bulma Version 0.6.2-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" integrity="sha256-2k1KVsNPRXxZOsXQ8aqcZ9GOOwmJTMoOB5o5Qp1d6/s=" crossorigin="anonymous" />  </head>
-    <body>
-      <nav class="navbar has-shadow">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item" href="../">
-              <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox">
-            </a>
-            <div class="navbar-burger burger" data-target="navMenu">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-          <div id="navMenu" class="navbar-menu">
-            <div class="navbar-end">
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
-                  Account
-                </a>
-                <div class="navbar-dropdown">
-                  <a class="navbar-item">
-                    Dashboard
-                  </a>
-                  <a class="navbar-item">
-                    Profile
-                  </a>
-                  <a class="navbar-item">
-                    Settings
-                  </a>
-                  <hr class="navbar-divider">
-                  <div class="navbar-item">
-                    Logout
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <section class="hero is-info">
-        <div class="hero-body">
-          <div class="container">
-            <div class="card">
-              <div class="card-content">
-                <div class="content">
-                  <div class="control has-icons-left has-icons-right">
-                    <input class="input is-large" type="search" placeholder="">
-                    <span class="icon is-medium is-left">
-                      <i class="fa fa-search"></i>
-                    </span>
-                    <span class="icon is-medium is-right">
-                      <i class="fa fa-empire"></i>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div class="box cta">
-        <div class="columns is-mobile is-centered">
-          <div class="field is-grouped is-grouped-multiline">
-            <div class="control"><span class="tag is-link is-large">Link</span></div>
-            <div class="control"><span class="tag is-success is-large">Success</span></div>
-            <div class="control"><span class="tag is-black is-large">Black</span></div>
-            <div class="control"><span class="tag is-warning is-large">Warning</span></div>
-            <div class="control"><span class="tag is-danger is-large">Danger</span></div>
-            <div class="control"><span class="tag is-info is-large">Info</span></div>
-          </div>
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>
+    Search - Free Bulma template
+  </title>
+  <link href="../images/fav_icon.png" rel="shortcut icon" type="image/x-icon">
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Bulma Version 0.6.2-->
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" integrity="sha256-2k1KVsNPRXxZOsXQ8aqcZ9GOOwmJTMoOB5o5Qp1d6/s=" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar has-shadow">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="../">
+          <img alt="Bulma: a modern CSS framework based on Flexbox" src="http://bulma.io/images/bulma-logo.png">
+        </a>
+        <div class="navbar-burger burger" data-target="navMenu">
+          <span>
+          </span>
+          <span>
+          </span>
+          <span>
+          </span>
         </div>
       </div>
-      <section class="container">
-        <div class="columns is-mobile is-centered">
-          <div class="column is-half is-narrow">
-            <article class="message is-black">
-              <div class="message-header">
-                <p>Dark</p>
-                <button class="delete" aria-label="delete"></button>
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Account
+            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                Dashboard
+              </a>
+              <a class="navbar-item">
+                Profile
+              </a>
+              <a class="navbar-item">
+                Settings
+              </a>
+              <hr class="navbar-divider">
+              <div class="navbar-item">
+                Logout
               </div>
-              <div class="message-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-              </div>
-            </article>
-            <article class="message is-primary">
-              <div class="message-header">
-                <p>Primary</p>
-                <button class="delete" aria-label="delete"></button>
-              </div>
-              <div class="message-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-              </div>
-            </article>
-            <article class="message is-link">
-              <div class="message-header">
-                <p>Link</p>
-                <button class="delete" aria-label="delete"></button>
-              </div>
-              <div class="message-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-              </div>
-            </article>
-            <article class="message is-info">
-              <div class="message-header">
-                <p>Info</p>
-                <button class="delete" aria-label="delete"></button>
-              </div>
-              <div class="message-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-              </div>
-            </article>
-            <article class="message is-success">
-              <div class="message-header">
-                <p>Success</p>
-                <button class="delete" aria-label="delete"></button>
-              </div>
-              <div class="message-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-              </div>
-            </article>
-            <article class="message is-warning">
-              <div class="message-header">
-                <p>Warning</p>
-                <button class="delete" aria-label="delete"></button>
-              </div>
-              <div class="message-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-              </div>
-            </article>
-            <article class="message is-danger">
-              <div class="message-header">
-                <p>Danger</p>
-                <button class="delete" aria-label="delete"></button>
-              </div>
-              <div class="message-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-              </div>
-            </article>
-            <div class="notification is-primary">
-              <button class="delete"></button>
-              Primar lorem ipsum dolor sit amet, consectetur
-              adipiscing elit lorem ipsum dolor. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Sit amet,
-              consectetur adipiscing elit
-            </div>
-            <div class="notification is-link">
-              <button class="delete"></button>
-              Primar lorem ipsum dolor sit amet, consectetur
-              adipiscing elit lorem ipsum dolor. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Sit amet,
-              consectetur adipiscing elit
-            </div>
-            <div class="notification is-info">
-              <button class="delete"></button>
-              Primar lorem ipsum dolor sit amet, consectetur
-              adipiscing elit lorem ipsum dolor. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Sit amet,
-              consectetur adipiscing elit
-            </div>
-            <div class="notification is-success">
-              <button class="delete"></button>
-              Primar lorem ipsum dolor sit amet, consectetur
-              adipiscing elit lorem ipsum dolor. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Sit amet,
-              consectetur adipiscing elit
-            </div>
-            <div class="notification is-warning">
-              <button class="delete"></button>
-              Primar lorem ipsum dolor sit amet, consectetur
-              adipiscing elit lorem ipsum dolor. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Sit amet,
-              consectetur adipiscing elit
-            </div>
-            <div class="notification is-danger">
-              <button class="delete"></button>
-              Primar lorem ipsum dolor sit amet, consectetur
-              adipiscing elit lorem ipsum dolor. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Sit amet,
-              consectetur adipiscing elit
             </div>
           </div>
-        </div>
-      </section>
-      <div class="columns is-mobile is-centered">
-        <div class="column is-half is-narrow">
-          
         </div>
       </div>
     </div>
-    <footer>
-      <div class="box cta">
-        <div class="columns is-mobile is-centered">
-          <div class="field is-grouped is-grouped-multiline">
-            <div class="control">
-              <div class="tags has-addons">
-                <a class="tag is-link" href="https://github.com/dansup/bulma-templates">Bulma Templates</a>
-                <span class="tag is-light">Daniel Supernault</span>
-              </div>
-            </div>
-            <div class="control">
-              <div class="tags has-addons">
-                <a class="tag is-link">The source code is licensed</a>
-                <span class="tag is-light">MIT &nbsp;<i class="fa fa-github"></i></span>
+  </nav>
+  <section class="hero is-info">
+    <div class="hero-body">
+      <div class="container">
+        <div class="card">
+          <div class="card-content">
+            <div class="content">
+              <div class="control has-icons-left has-icons-right">
+                <input class="input is-large" placeholder="" type="search">
+                <span class="icon is-medium is-left">
+                  <i class="fa fa-search">
+                  </i>
+                </span>
+                <span class="icon is-medium is-right">
+                  <i class="fa fa-empire">
+                  </i>
+                </span>
               </div>
             </div>
           </div>
         </div>
-      </footer>
-      <script src="../js/bulma.js"></script>
-    </body>
-  </html>
+      </div>
+    </div>
+  </section>
+  <div class="box cta">
+    <div class="columns is-mobile is-centered">
+      <div class="field is-grouped is-grouped-multiline">
+        <div class="control">
+          <span class="tag is-link is-large">
+            Link
+          </span>
+        </div>
+        <div class="control">
+          <span class="tag is-success is-large">
+            Success
+          </span>
+        </div>
+        <div class="control">
+          <span class="tag is-black is-large">
+            Black
+          </span>
+        </div>
+        <div class="control">
+          <span class="tag is-warning is-large">
+            Warning
+          </span>
+        </div>
+        <div class="control">
+          <span class="tag is-danger is-large">
+            Danger
+          </span>
+        </div>
+        <div class="control">
+          <span class="tag is-info is-large">
+            Info
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="container">
+    <div class="columns is-mobile is-centered">
+      <div class="column is-half is-narrow">
+        <article class="message is-black">
+          <div class="message-header">
+            <p>
+              Dark
+            </p>
+            <button aria-label="delete" class="delete">
+            </button>
+          </div>
+          <div class="message-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <strong>
+              Pellentesque risus mi
+            </strong>
+            , tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+            <a>
+              felis venenatis
+            </a>
+            efficitur. Aenean ac
+            <em>
+              eleifend lacus
+            </em>
+            , in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+          </div>
+        </article>
+        <article class="message is-primary">
+          <div class="message-header">
+            <p>
+              Primary
+            </p>
+            <button aria-label="delete" class="delete">
+            </button>
+          </div>
+          <div class="message-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <strong>
+              Pellentesque risus mi
+            </strong>
+            , tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+            <a>
+              felis venenatis
+            </a>
+            efficitur. Aenean ac
+            <em>
+              eleifend lacus
+            </em>
+            , in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+          </div>
+        </article>
+        <article class="message is-link">
+          <div class="message-header">
+            <p>
+              Link
+            </p>
+            <button aria-label="delete" class="delete">
+            </button>
+          </div>
+          <div class="message-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <strong>
+              Pellentesque risus mi
+            </strong>
+            , tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+            <a>
+              felis venenatis
+            </a>
+            efficitur. Aenean ac
+            <em>
+              eleifend lacus
+            </em>
+            , in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+          </div>
+        </article>
+        <article class="message is-info">
+          <div class="message-header">
+            <p>
+              Info
+            </p>
+            <button aria-label="delete" class="delete">
+            </button>
+          </div>
+          <div class="message-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <strong>
+              Pellentesque risus mi
+            </strong>
+            , tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+            <a>
+              felis venenatis
+            </a>
+            efficitur. Aenean ac
+            <em>
+              eleifend lacus
+            </em>
+            , in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+          </div>
+        </article>
+        <article class="message is-success">
+          <div class="message-header">
+            <p>
+              Success
+            </p>
+            <button aria-label="delete" class="delete">
+            </button>
+          </div>
+          <div class="message-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <strong>
+              Pellentesque risus mi
+            </strong>
+            , tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+            <a>
+              felis venenatis
+            </a>
+            efficitur. Aenean ac
+            <em>
+              eleifend lacus
+            </em>
+            , in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+          </div>
+        </article>
+        <article class="message is-warning">
+          <div class="message-header">
+            <p>
+              Warning
+            </p>
+            <button aria-label="delete" class="delete">
+            </button>
+          </div>
+          <div class="message-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <strong>
+              Pellentesque risus mi
+            </strong>
+            , tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+            <a>
+              felis venenatis
+            </a>
+            efficitur. Aenean ac
+            <em>
+              eleifend lacus
+            </em>
+            , in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+          </div>
+        </article>
+        <article class="message is-danger">
+          <div class="message-header">
+            <p>
+              Danger
+            </p>
+            <button aria-label="delete" class="delete">
+            </button>
+          </div>
+          <div class="message-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <strong>
+              Pellentesque risus mi
+            </strong>
+            , tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+            <a>
+              felis venenatis
+            </a>
+            efficitur. Aenean ac
+            <em>
+              eleifend lacus
+            </em>
+            , in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+          </div>
+        </article>
+        <div class="notification is-primary">
+          <button class="delete">
+          </button>
+          Primar lorem ipsum dolor sit amet, consectetur                        adipiscing elit lorem ipsum dolor.
+          <strong>
+            Pellentesque risus mi
+          </strong>
+          , tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+          <a>
+            felis venenatis
+          </a>
+          efficitur. Sit amet,                        consectetur adipiscing elit
+        </div>
+        <div class="notification is-link">
+          <button class="delete">
+          </button>
+          Primar lorem ipsum dolor sit amet, consectetur                        adipiscing elit lorem ipsum dolor.
+          <strong>
+            Pellentesque risus mi
+          </strong>
+          , tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+          <a>
+            felis venenatis
+          </a>
+          efficitur. Sit amet,                        consectetur adipiscing elit
+        </div>
+        <div class="notification is-info">
+          <button class="delete">
+          </button>
+          Primar lorem ipsum dolor sit amet, consectetur                        adipiscing elit lorem ipsum dolor.
+          <strong>
+            Pellentesque risus mi
+          </strong>
+          , tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+          <a>
+            felis venenatis
+          </a>
+          efficitur. Sit amet,                        consectetur adipiscing elit
+        </div>
+        <div class="notification is-success">
+          <button class="delete">
+          </button>
+          Primar lorem ipsum dolor sit amet, consectetur                        adipiscing elit lorem ipsum dolor.
+          <strong>
+            Pellentesque risus mi
+          </strong>
+          , tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+          <a>
+            felis venenatis
+          </a>
+          efficitur. Sit amet,                        consectetur adipiscing elit
+        </div>
+        <div class="notification is-warning">
+          <button class="delete">
+          </button>
+          Primar lorem ipsum dolor sit amet, consectetur                        adipiscing elit lorem ipsum dolor.
+          <strong>
+            Pellentesque risus mi
+          </strong>
+          , tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+          <a>
+            felis venenatis
+          </a>
+          efficitur. Sit amet,                        consectetur adipiscing elit
+        </div>
+        <div class="notification is-danger">
+          <button class="delete">
+          </button>
+          Primar lorem ipsum dolor sit amet, consectetur                        adipiscing elit lorem ipsum dolor.
+          <strong>
+            Pellentesque risus mi
+          </strong>
+          , tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+          <a>
+            felis venenatis
+          </a>
+          efficitur. Sit amet,                        consectetur adipiscing elit
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="columns is-mobile is-centered">
+    <div class="column is-half is-narrow">
+    </div>
+  </div>
+  <footer>
+    <div class="box cta">
+      <div class="columns is-mobile is-centered">
+        <div class="field is-grouped is-grouped-multiline">
+          <div class="control">
+            <div class="tags has-addons">
+              <a class="tag is-link" href="https://github.com/dansup/bulma-templates">
+                Bulma Templates
+              </a>
+              <span class="tag is-light">
+                Daniel Supernault
+              </span>
+            </div>
+          </div>
+          <div class="control">
+            <div class="tags has-addons">
+              <a class="tag is-link">
+                The source code is licensed
+              </a>
+              <span class="tag is-light">
+                MIT &nbsp;
+                <i class="fa fa-github">
+                </i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/bulma.js">
+  </script>
+</body>
+</html>
