@@ -1,22 +1,12 @@
-body,
-html {
-  background: #f2f2f2;
-}
-
-pre,
-.message {
-  max-width: 960px;
-}
-
-li {margin: 10px}
+body, html { background: #f2f2f2; }
+pre,.message { max-width: 960px; }
+li { margin: 10px }
 
 .hero.is-primary {
-background: linear-gradient(to top right, #524ad0 10%, #D099FA);
+  background: linear-gradient(to top right, #524ad0 10%, #D099FA);
 }
 
-.box {
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
-}
+.box { box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2); }
 
 .box span.icon {
   float: right;
@@ -24,18 +14,14 @@ background: linear-gradient(to top right, #524ad0 10%, #D099FA);
   padding: 2rem 2rem 0 0;
 }
 
-.is-large.fab {
-  font-size: 7em;
-}
+.is-large.fab { font-size: 7em; }
 
 .is-large.fas {
   font-size: 5em;
   margin-left: 0.2em;
 }
 
-.menu-list li a:hover {
-  background: #d9d9d9;
-}
+.menu-list li a:hover { background: #d9d9d9; }
 
 .token.number {
   display: inline;
@@ -50,4 +36,4 @@ background: linear-gradient(to top right, #524ad0 10%, #D099FA);
   background: inherit;
   margin: inherit;
 }
-.footer {background-color: white;}
+.footer { background-color: white; }

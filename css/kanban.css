@@ -24,6 +24,4 @@
   margin: 5px;
 }
 
-.delete {
-  pointer-events: auto;
-}
+.delete { pointer-events: auto; }

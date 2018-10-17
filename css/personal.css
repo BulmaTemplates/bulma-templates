@@ -3,12 +3,9 @@
   overflow: hidden;
 }
 
-.card-content h3 {
-  text-align: center;
-}
+.card-content h3 { text-align: center; }
 
-.table-profile td,
-th {
+.table-profile td, th {
   border: none !important;
 }
 
