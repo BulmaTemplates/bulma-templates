@@ -114,11 +114,11 @@ var App = new Vue({
             "the dragon and the wolf"
           ]
         }
-      ]
+      ]     
     }
-  },
-
-
+    },
+    
+      
   computed: {
     filteredCards() {
       var _this = this
@@ -134,7 +134,7 @@ var App = new Vue({
       })
     }
   },
-
+  
   methods: {
     removeCard (card) {
       this.cards.splice(this.cards.indexOf(card), 1)
