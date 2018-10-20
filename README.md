@@ -10,11 +10,6 @@ Free Templates for the Bulma CSS Framework ![bulma version](https://img.shields.
 
 The templates are located in the ```/templates``` directory, and you can preview them on the [demo website](http://dansup.github.io/bulma-templates)
 
-## Roadmap
-
-The roadmap for the version 0.6.0 release can be found on the [projects tracker](https://github.com/dansup/bulma-templates/projects/1)
-
-
 ## Contributing
 
 1. Fork it!
