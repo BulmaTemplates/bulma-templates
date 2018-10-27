@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>bulma|vue kanban</title>
 
-
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css'>
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
     <link rel="stylesheet" href="../css/kanban.css">
@@ -26,7 +25,7 @@
             <div class="card-content">
               <div class="content">
                 <div class="control has-icons-left has-icons-right search-field">
-                  <input class="input is-large" type="text" placeholder="ｓｅａｒｃｈｂｏｘ" v-model="search" /><span class="icon is-medium is-left"><i class="fa fa-search"></i></span>
+                  <input class="input is-large" type="text" placeholder="" v-model="search" /><span class="icon is-medium is-left"><i class="fa fa-search"></i></span>
                   <span class="icon is-medium is-right">
                     <i class="delete is-medium clear-search" @click="clearSearchField()" v-if="search.length"></i>
                   </span>
@@ -43,19 +42,19 @@
         </p>
     </div>
     <!-- Loop through the parent array -->
-    <section class="container" >
-      <div class="columns is-mobile is-centered" id="sectioncontainer">
+    <section class="container cards-container">
+      <div class="columns is-centered is-multiline" id="sectioncontainer">
         <div class="column is-narrow" v-for="yxy in filteredCards">
           <article class="message" :class="'is-' + yxy.cardColor">
             <div class="message-header">
               <!-- Make a header using the `name` property from the current season in the loop -->
-              <p>{{title}} » {{ yxy.name}}</p>
+              <p>{{ title }} » {{  yxy.name }}</p>
               <button class="delete" aria-label="delete" @click="removeCard(yxy)"></button>
             </div>
             <div class="message-body">
               <div class="board-item">
                 <!-- Loop through the `items` array from the current season to show each item -->
-                <div class="board-item-content" v-for="item in yxy.items"><span>{{ item}}</span></div>
+                <div class="board-item-content" v-for="item in yxy.items"><span>{{ item }}</span></div>
               </div>
             </div>
           </article>

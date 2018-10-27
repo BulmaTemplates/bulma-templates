@@ -1,8 +1,10 @@
 #sectioncontainer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0;
   margin-top: 20px;
+}
+
+/* Keep from sticking to sides */
+.cards-container {
+  max-width: 95%;
 }
 
 .board-item {
@@ -26,4 +28,8 @@
 
 .delete {
   pointer-events: auto;
+}
+
+footer {
+  margin-top: 2rem;
 }
