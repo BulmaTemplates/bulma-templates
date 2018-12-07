@@ -33,6 +33,8 @@ background: linear-gradient(to top right, #524ad0 10%, #D099FA);
   margin-left: 0.2em;
 }
 
+.media-content {overflow: hidden;}
+
 .menu-list li a:hover {
   background: #d9d9d9;
 }
