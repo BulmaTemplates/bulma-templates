@@ -1,6 +1,7 @@
 body {
 background: #041221;
 }
+.card {overflow:hidden}
 .card.large {
 height: 600px;
 -webkit-backface-visibility: hidden;
