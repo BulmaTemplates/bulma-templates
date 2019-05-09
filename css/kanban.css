@@ -13,7 +13,7 @@
 }
 
 .board-item-content {
-  word-wrap: break-word;
+  word-break: break-all;
   position: relative;
   padding: 20px;
   background: #fff;
