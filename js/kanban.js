@@ -116,7 +116,7 @@ var App = new Vue({
         }
       ]     
     },
-             {
+     {
           name: "Season 8",
           cardColor: "info",
           items: [
