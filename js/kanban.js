@@ -113,7 +113,7 @@ var App = new Vue({
             "beyond the wall",
             "the dragon and the wolf"
           ]
-        }
+        },
       ]     
     },
      {
@@ -127,7 +127,7 @@ var App = new Vue({
             "the bells",
             "the iron throne"
           ]
-        },
+        }
       ]     
     },
     
