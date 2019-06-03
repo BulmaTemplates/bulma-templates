@@ -114,9 +114,8 @@ var App = new Vue({
             "the dragon and the wolf"
           ]
         },
-      ]     
-    },
-     {
+        
+             {
           name: "Season 8",
           cardColor: "info",
           items: [
@@ -129,6 +128,7 @@ var App = new Vue({
           ]
         }
       ]     
+    }
     },
     
       
