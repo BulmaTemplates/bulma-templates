@@ -115,6 +115,20 @@ var App = new Vue({
           ]
         }
       ]     
+    },
+             {
+          name: "Season 8",
+          cardColor: "info",
+          items: [
+            "winterfell",
+            "a knight of the seven kingdoms",
+            "the long night",
+            "the last of the starks",
+            "the bells",
+            "the iron throne"
+          ]
+        }
+      ]     
     }
     },
     
