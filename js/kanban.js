@@ -127,7 +127,7 @@ var App = new Vue({
             "the bells",
             "the iron throne"
           ]
-        }
+        },
       ]     
     },
     
