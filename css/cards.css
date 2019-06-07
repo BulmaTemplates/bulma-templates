@@ -100,3 +100,6 @@ color: lemonchiffon;
 .fa
 {color: lemonchiffon;
     margin: 10px}
+
+::selection 
+{background-color:#DEF4FF}
