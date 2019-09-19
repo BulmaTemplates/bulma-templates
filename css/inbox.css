@@ -46,10 +46,12 @@ html,body {
   display:block;
   background-color: #fff;
   border-right: 1px solid #DEDEDE;
+  padding: 40px 20px;
 }
 .message {
   display:block;
   background-color: #fff;
+  padding: 40px 20px;
 }
 .aside .compose {
   height: 95px;
@@ -97,12 +99,6 @@ html,body {
   font-size: 15px;
   color: #5D5D5D;
   font-weight: 500;
-}
-.messages {
-  padding: 40px 20px;
-}
-.message {
-  padding: 40px 20px;
 }
 .messages .action-buttons {
   padding: 0;
