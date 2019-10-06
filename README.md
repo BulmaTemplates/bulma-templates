@@ -1,7 +1,7 @@
 # Bulma Templates
 Free Templates for the Bulma CSS Framework ![bulma version](https://img.shields.io/badge/bulma-0.7.5-blueviolet.svg)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/bulmatemplates/bulma-templates/pulls)
-
+![Hacktoberfest2019](https://img.shields.io/badge/HACKTOBERFEST-2019-blueviolet)
 ## Versions
   The original bulma templates were made with version 0.1.1 and can be found in the **0.1.1** branch. The newest templates are made with version 0.7.5 and can be found in the **master** branch. The templates on bulmatemplates.github.io are based on the **master** branch.
 
