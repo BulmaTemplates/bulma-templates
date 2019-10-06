@@ -1,5 +1,5 @@
 html,body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Questrial', sans-serif;
   font-size: 14px;
   font-weight: 300;
 }
@@ -32,4 +32,20 @@ p {
 }
 p.subtitle {
   padding-top: 1rem;
+}
+
+.login-hr{
+  border-bottom: 1px solid black;
+}
+
+.has-text-black{
+  color: black;
+}
+
+.field{
+  padding-bottom: 10px;
+}
+
+.fa{
+  margin-left: 5px; 
 }
