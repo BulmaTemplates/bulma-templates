@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
     <title>Modal Cards - Free Bulma template</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css'>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- Bulma Version 0.7.x-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
@@ -360,6 +361,14 @@
     </div>
     <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>  
     <script src="../js/wild.js"></script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        //The first argument are the elements to which the plugin shall be initialized
+        //The second argument has to be at least a empty object or a object with your desired options
+        OverlayScrollbars(document.querySelectorAll("body"), { });
+        });
+        </script>  
   </body>
 </html>
