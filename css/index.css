@@ -22,3 +22,6 @@ html, body {
 .container {
   max-width: 95%;
 }
+.fa-code, .fa-search {
+  margin-right: 0.5vw;
+}
