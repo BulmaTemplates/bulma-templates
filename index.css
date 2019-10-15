@@ -1,6 +1,8 @@
 html, body {
-  font-family: 'Open Sans', serif;
-  background:  #DCDCDC;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+
+  background:  #EEEEEE;
 }
 .card {
   margin-bottom: 3rem;
