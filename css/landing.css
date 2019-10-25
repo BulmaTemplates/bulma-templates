@@ -1,5 +1,5 @@
 html,body {
-  font-family: 'Open Sans', serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 .hero.is-info {
   background: linear-gradient(
