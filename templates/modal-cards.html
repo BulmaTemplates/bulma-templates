@@ -23,16 +23,16 @@
       <div class="columns features">
         <div class="column is-4 modal-button" data-target="modal-card">
           <div class="card is-shady">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="https://ultraimg.com/images/yHrYA.jpg" alt="Placeholder image">
-              </figure>
+            <div class="card-image " >
+				<figure class="image is-4by3"> <!-- <figure class="image is-128x128">-->
+					<img src="https://ultraimg.com/images/yHrYA.jpg" alt="Placeholder image">
+				</figure>
             </div>
             <div class="card-content">
               <div class="content">
                 <h4>Click anywhere on card to <br>expand into modal card</h4>
                 <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
-                <span class="button is-link modal-button">Modal card</span>
+                <span class="button is-link modal-button"> more info....</span>
               </div>
             </div>
           </div>
@@ -42,24 +42,24 @@
     <footer>
     </footer>
     <!--  ===============
-    HERE BE MODALS
+    HERE BE MODALS style="z-index: 100;"
     ===============  -->
     <!-- 3dFlipVertical card tiny -->
     <div id="modal-card" class="modal modal-fx-3dSlit">
       <div class="modal-background"></div>
-		<div class="modal-content is-tiny">
+		<div class="modal-content is-tiny">		
 			<!-- content -->
 			<div class="card">
-			  <div class="card-image">
+			  <!-- <div class="card-image">
 				<figure class="image is-4by3">
 				  <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
 				</figure>
-			  </div>
+			  </div> -->
 			  <div class="card-content">
 				<div class="media">
 				  <div class="media-left">
-					<figure class="image is-48x48">
-					  <img src="http://www.radfaces.com/images/avatars/linda-barret.jpg" alt="linda barret avatar">
+					<figure  class="image is-48x48">
+					  <img class="is-rounded"src="http://www.radfaces.com/images/avatars/linda-barret.jpg" alt="linda barret avatar">
 					</figure>
 				  </div>
 				  <div class="media-content">
@@ -69,7 +69,6 @@
 				</div>
 				<div class="content">
 				  222Laum Ipsum junkah potatoes bookin' it. Moosetown rig up I'm tellin' you way up north bookin' it can't get theyah from heeyah native bean suppah whawf Powrtland Museum of Aht, back woods hawsun around the pit mummah Yessah, mummah muckle riyht on'ta her
-
 				  <a>@bulmaio</a>.
 				  <a href="#">#css</a>
 				  <a href="#">#responsive</a>
@@ -80,13 +79,13 @@
 			</div>
 			<!-- end content -->      
 		</div>
-		<button class="modal-close is-large" aria-label="close"></button>
+		<button class="modal-close is-large" aria-label="close"></button>		
     </div><!-- end tiny modal card -->
-	
     <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+	<!-- 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>  
-    <script src="../js/wild.js"></script>
+	    <script src="../js/wild.js"></script> 
         <script>
         document.addEventListener("DOMContentLoaded", function() {
         //The first argument are the elements to which the plugin shall be initialized
@@ -94,5 +93,6 @@
         OverlayScrollbars(document.querySelectorAll("body"), { });
         });
         </script>  
+		-->
   </body>
 </html>
