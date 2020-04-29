@@ -47,7 +47,7 @@ function scrollFunction() {
 }
 
 // Preloader
-$(document).on("ready", function($) {
+$(document).ready(function($) {
   $(".preloader-wrapper").fadeOut();
   $("body").removeClass("preloader-site");
 });
