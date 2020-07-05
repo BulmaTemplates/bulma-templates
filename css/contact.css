@@ -11,9 +11,18 @@
 }
 
 @media screen and (min-width: 768px) {
+  body {
+    padding-top: calc(3.25rem + 20px);
+  }
+
   .navbar {
     padding: 10px 0;
     position: fixed;
+    top: 0;
     width: 100%;
+  }
+
+  .hero.is-fullheight {
+    min-height: calc(100vh - 6.5rem - 40px);
   }
 }
