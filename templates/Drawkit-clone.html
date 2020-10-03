@@ -23,6 +23,7 @@
       font-weight: 400 !important;
       line-height: 64px !important;
     }
+
     .subtitled {
       font-family: 'Merriweather', serif !important;
       font-size: 22px !important;
@@ -171,13 +172,36 @@
     </div>
   </section>
 
-  <div class="container is-fluid">
-    <div class="hero">
-      <div class="hero-body">
-        
+  <section class="hero is-medium has-text-centered">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <h1 class="title titled is-1 mb-6">
+              Primary bold title <span id="typewriter"></span>
+            </h1>
+            <h2 class="subtitle subtitled">
+              Welcome to my space for experiments! Look at this like a journey we can take together every step of the
+              way,
+              beginning another chapter with each new phase of the project development. And who knows where it will take
+              us?
+            </h2>
+          </div>
+        </div>
+
       </div>
     </div>
-  </div>
+  </section>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.13.1/core.min.js"></script>
+  <script>
+    new Typewriter('#typewriter', {
+      strings: ['typewriter', 'Effect', 'typewriter.js', 'example'],
+      autoStart: true,
+      loop: true,
+    });
+  </script>
 </body>
 
 </html>
