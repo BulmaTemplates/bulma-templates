@@ -1,0 +1,120 @@
+/* Global styles */
+:root {
+  --primary: #6c5ce7;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+hr {
+  margin-bottom: 0;
+}
+
+.navbar {
+  min-height: 5rem;
+}
+
+.button.is-primary {
+  background: var(--primary);
+}
+
+.button.is-primary:hover {
+  background: hsl(247, 84%, 63%);
+}
+
+/* Helper styles */
+
+.icon-padding-left {
+  margin-left: 0.5rem;
+  color: #212121;
+}
+
+.icon-padding-right {
+  margin-right: 0.5rem;
+}
+
+/* Hero styles */
+
+.hero {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.705),
+      rgba(255, 255, 255, 0.301)
+    ),
+    url(https://i.ibb.co/2PHHkRq/alexandra-nicolae-MKXy-Rm-p-K50-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero .title {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+
+.hero .input {
+  width: 400px;
+}
+
+/* Featured styles */
+
+.featured {
+  padding: 4rem 0;
+}
+.featured .level {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightgrey;
+}
+.featured .level-item h2 {
+  color: var(--primary);
+  font-weight: 600;
+}
+.featured article .subtitle {
+  margin-top: 1rem;
+  color: #212121;
+}
+
+/* Categories styles */
+
+.category {
+  margin-top: 2rem;
+}
+
+.category span {
+  opacity: 0.5;
+  font-size: 1rem;
+  margin-left: 1rem;
+  font-weight: 400;
+}
+
+.category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.category li {
+  padding-top: 1rem;
+}
+
+.category .category-more {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: var(--primary);
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+/* Footer styles */
+
+.footer {
+  margin-top: 5rem;
+  background: white;
+  border-top: 1px solid var(--primary);
+}
+.footer .links {
+  display: flex;
+  justify-content: center;
+}
+.footer .links a {
+  margin: 0 1rem;
+}
