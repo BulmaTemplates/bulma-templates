@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <section class="hero is-info is-fullheight">
+
+        <div class="hero-body">
+            <div class="container">
+
+                <div class="columns is-centered">
+                    <div class="column is-two-fifths">
+                        <form action="/login" method="POST" class="box">
+                            <div class="field">
+                                <label class="label">Email</label>
+                                <div class="control">
+                                    <input class="input" type="email" placeholder="Enter your email" id="email"
+                                        name="email" required>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Password</label>
+                                <div class="control">
+                                    <input class="input" type="password" placeholder="Enter your password"
+                                        id="password" name="password" required>
+                                </div>
+                            </div>
+
+                            <p class="mt-2">
+                            <div>
+                                <div class="control">
+                                    <button class="button is-success" type="submit">Login</button>
+                                </div>
+                            </div>
+                            </p>
+                        </form>
+
+                        <p class="mt-6 has-text-centered">Don't have an account? Create one <a href="/register"
+                                class="tag is-white is-medium">here</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
