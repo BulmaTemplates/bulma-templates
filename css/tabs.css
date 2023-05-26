@@ -1,3 +1,6 @@
+:root{
+::-webkit-scrollbar{height:10px;width:10px}::-webkit-scrollbar-track{background:#efefef;border-radius:6px}::-webkit-scrollbar-thumb{background:#d5d5d5;border-radius:6px}::-webkit-scrollbar-thumb:hover{background:#c4c4c4}
+}
 .tabs {
 margin-bottom: -1px !important;
 position: relative;
