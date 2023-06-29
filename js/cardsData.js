@@ -1,6 +1,6 @@
 let cardsData = [{
   id: 1,
-  image: 'https://pbs.twimg.com/media/FysGLFPWcAE6_-C?format=jpg&name=4096x4096',
+  image: 'https://res-console.cloudinary.com/ameo/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2lyZW5lX2NvdmVyX2h4OG92Yg==/template_primary',
   avatar: 'https://avatars.dicebear.com/api/initials/john%20doe.svg',
   user: {
     name: 'Okinami',
