@@ -1,5 +1,5 @@
 # Bulma Templates
-Free Templates for the Bulma CSS Framework ![bulma version](https://img.shields.io/badge/bulma-0.9.4-6495ED.svg)
+Free Templates for the Bulma CSS Framework ![bulma version](https://img.shields.io/badge/bulma-1.0.0-6495ED.svg)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/bulmatemplates/bulma-templates/pulls)
 [Open in Visual Studio Code](https://open.vscode.dev/BulmaTemplates/bulma-templates)
 ## Versions
