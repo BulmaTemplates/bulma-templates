@@ -113,9 +113,8 @@
     </footer>
 
     <script src="../js/cardsData.js"></script>
-
-    <!-- Using Vue to populate cards to reduce redundant code -->
     <script>
+      // Using Vue to populate cards to reduce redundant code...
       var app = new Vue({
         el: '#app',
         data: {
@@ -123,6 +122,17 @@
         }
       })
 
+      // Handling burger menu...
+      document.addEventListener('DOMContentLoaded', () => {
+        const burger = document.querySelector('.navbar-burger');
+        const menu = document.getElementById(burger.dataset.target);
+        if (burger && menu) {
+          burger.addEventListener('click', () => {
+            burger.classList.toggle('is-active');
+            menu.classList.toggle('is-active');
+          });
+        }
+      });
     </script>
   </body>
 
