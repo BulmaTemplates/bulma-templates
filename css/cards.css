@@ -32,10 +32,6 @@ input::placeholder {
   color: var(--bg);
 }
 
-.card.large {
-  border-radius: 5px;
-}
-
 .title.no-padding {
   margin-bottom: 0 !important;
 }
