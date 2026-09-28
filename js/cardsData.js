@@ -1,7 +1,7 @@
 let cardsData = [{
   id: 1,
   image: 'https://images.unsplash.com/photo-1504173010664-32509aeebb62?ixlib=rb-1.2.1&auto=format&fit=crop&w=713&q=80',
-  avatar: 'https://avatars.dicebear.com/api/initials/john%20doe.svg',
+  avatar: 'https://api.dicebear.com/10.x/initials/svg?seed=John%20Doe',
   user: {
     name: 'Okinami',
     handle: 'twitterid',
@@ -12,7 +12,7 @@ let cardsData = [{
 {
   id: 1,
   image: 'https://images.unsplash.com/photo-1687851898832-650714860119?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
-  avatar: 'https://avatars.dicebear.com/api/initials/john%20doe.svg',
+  avatar: 'https://api.dicebear.com/10.x/initials/svg?seed=John%20Doe',
   user: {
     name: 'Okinami',
     handle: 'twitterid',
@@ -23,7 +23,7 @@ let cardsData = [{
 {
   id: 2,
   image: 'https://images.unsplash.com/photo-1687851898832-650714860119?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
-  avatar: 'https://avatars.dicebear.com/api/initials/john%20doe.svg',
+  avatar: 'https://api.dicebear.com/10.x/initials/svg?seed=John%20Doe',
   user: {
     name: 'Okinami',
     handle: 'twitterid',
@@ -34,7 +34,7 @@ let cardsData = [{
 {
   id: 3,
   image: 'https://images.unsplash.com/photo-1687851898832-650714860119?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
-  avatar: 'https://avatars.dicebear.com/api/initials/john%20doe.svg',
+  avatar: 'https://api.dicebear.com/10.x/initials/svg?seed=John%20Doe',
   user: {
     name: 'Okinami',
     handle: 'twitterid',
@@ -45,7 +45,7 @@ let cardsData = [{
 {
   id: 4,
   image: 'https://images.unsplash.com/photo-1687851898832-650714860119?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
-  avatar: 'https://avatars.dicebear.com/api/initials/john%20doe.svg',
+  avatar: 'https://api.dicebear.com/10.x/initials/svg?seed=John%20Doe',
   user: {
     name: 'Okinami',
     handle: 'twitterid',
@@ -56,7 +56,7 @@ let cardsData = [{
 {
   id: 5,
   image: 'https://images.unsplash.com/photo-1687851898832-650714860119?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
-  avatar: 'https://avatars.dicebear.com/api/initials/john%20doe.svg',
+  avatar: 'https://api.dicebear.com/10.x/initials/svg?seed=John%20Doe',
   user: {
     name: 'Okinami',
     handle: 'twitterid',
@@ -67,7 +67,7 @@ let cardsData = [{
 {
   id: 6,
   image: 'https://ucarecdn.com/83e71ac6-6c75-4e7c-96e9-5aae15a4b3f0/',
-  avatar: 'https://avatars.dicebear.com/api/initials/john%20doe.svg',
+  avatar: 'https://api.dicebear.com/10.x/initials/svg?seed=John%20Doe',
   user: {
     name: 'Okinami',
     handle: 'twitterid',
