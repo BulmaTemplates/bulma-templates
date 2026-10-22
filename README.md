@@ -10,6 +10,12 @@ Free Templates for the Bulma CSS Framework ![bulma version](https://img.shields.
 
 The templates are located in the ```/templates``` directory, and you can preview them on the [demo website](https://bulmatemplates.github.io/bulma-templates/)
 
+## Deploy
+
+To host your own copy on Wasmer Edge, fork this repository and import your fork; the button below opens the Wasmer import page for this repository and does not copy it into your GitHub account. The site is served as-is from the repository root (no build step).
+
+[![Deploy to Wasmer](https://img.shields.io/badge/Deploy%20to-Wasmer-171717?logo=wasmer&logoColor=white)](https://wasmer.io/apps/create?github=BulmaTemplates%2Fbulma-templates)
+
 ## Contributing
 
 1. Fork it!
